@@ -1,1 +1,137 @@
-
+{
+  "titre_principal": "Bienvenue sur Raphael Del",
+  "titre-yt": "Mes chaines youtubes",
+  "menu": [
+    { "texte": "Nombres de cliques", "lien": "https://electricite.html-5.me/nbdecliques.html" },
+    { "texte": "Option 2", "lien": "" },
+    { "texte": "Option 3", "lien": "" }
+  ],
+  "chaines_youtube": [
+    {
+      "titre": "Ma chaine Youtube",
+      "lien": "https://youtube.com/@raphael_del",
+      "img": "https://yt3.googleusercontent.com/8YiCLI2fwa4dEKQDEQNy5irmxix_ZPA31R63nQoMPcyA9mwEG1BhIp8Bavop1x_Y3Esvr2CQhA=s1920-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "titre": "Raphael Four 4",
+      "lien": "https://www.youtube.com/@raphaelfour4",
+      "img": "https://yt3.googleusercontent.com/ytc/AIdro_lmOULlKsYDqDTEMAoNGve_R1M5O8-zkaM-_rDBnqyg5Rg=s1920-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "titre": "Friends Ed Sheeran",
+      "lien": "https://www.youtube.com/@friendsedsheeran512",
+      "img": "https://yt3.googleusercontent.com/ytc/AIdro_mEz1JmWGNgKMWcwJ2RnWdV4oGj-vnYAlUhY2xqYqTTMQ=s1920-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "titre": "The Seven Deadly Sins",
+      "lien": "https://www.youtube.com/@7ds-TheSevenDeadlySins",
+      "img": "https://yt3.googleusercontent.com/HsJaGiLXa1LZ4-EQs1-OqzRAp0VWa2lf8bJUevqY7EKG5uXZ2zBt4mgV0KNQIzpFbUg-1_22sg=s1920-c-k-c0x00ffffff-no-rj"
+    }
+  ],
+  "discord": {
+    "titre": "Mon serveur Discord",
+    "lien": "https://discord.gg/4xeKf85gp5",
+    "img": "https://electricite.html-5.me/img/Discord.png"
+  },
+  "title-sites": "Mes sites webs",
+  "sites": [
+    {
+      "nom": "The Seven Deadly Sins",
+      "lien": "https://sites.google.com/view/thesevendeadlysins-7ds#h.78n0wlf6fo60",
+      "image": "https://electricite.html-5.me/7ds.jpg"
+    },
+    {
+      "nom": "Les Grands Nombres",
+      "lien": "https://sites.google.com/view/les-grands-nombres",
+      "image": "https://electricite.html-5.me/7.jpg"
+    }
+  ],
+  "titre-sites-coded": "Mes sites que j'ai codé",
+  "coded_sites": [
+    {
+      "nom": "Les Grands Nombres",
+      "lien": "https://electricite.html-5.me/les-grands-nombres.html",
+      "image": "https://electricite.html-5.me/7.jpg"
+    },
+    {
+      "nom": "Rotations",
+      "lien": "https://electricite.html-5.me/rotate/",
+      "image": "https://electricite.html-5.me/img/chrome.jpg"
+    },
+    {
+      "nom": "NSI",
+      "lien": "https://tifsec-nsi.rf.gd/TNSI/?session=Anciennes Versions",
+      "image": "https://electricite.html-5.me/img/732212.ico"
+    },
+    {
+      "nom": "Audio",
+      "lien": "https://electricite.html-5.me/audio/index",
+      "image": "https://electricite.html-5.me/img/VLC_icon.png"
+    },
+    {
+      "nom": "Extracteur de miniatures youtube",
+      "lien": "https://electricite.html-5.me/extracteurYT/index",
+      "image": "https://electricite.html-5.me/img/Youtube_logo.png"
+    },
+    {
+      "nom": "Site de vente 1",
+      "lien": "https://site2vente1.onrender.com",
+      "image": "https://electricite.html-5.me/img/images.png"
+    },
+    {
+      "nom": "Site de vente 2",
+      "lien": "https://site2vente2.onrender.com",
+      "image": "https://electricite.html-5.me/img/images.png"
+    },
+    {
+      "nom": "Site de vente 3",
+      "lien": "https://site2vente3.onrender.com",
+      "image": "https://electricite.html-5.me/img/images.png"
+    },
+    {
+      "nom": "Barrage Hydroelectrique sur render",
+      "lien": "https://barrages-hydroelectrique-html-5.onrender.com",
+      "image": "https://electricite.html-5.me/img/barrageshydroelectrique.jpg"
+    },
+    {
+      "nom": "Pizza.moe",
+      "lien": "https://pizza-moe.onrender.com",
+      "image": "https://electricite.html-5.me/img/pizza.png"
+    },
+    {
+      "nom": "voiture",
+      "lien": "https://voiture-de-preference-vroum-vroum.vercel.app",
+      "image": "https://electricite.html-5.me/img/chrome.jpg"
+    },
+    {
+      "nom": "Un raccourcisseur de lien",
+      "lien": "http://zu.ct.ws/?lang=fr",
+      "image": "https://electricite.html-5.me/img/icon-256x256.png"
+    },
+    {
+      "nom": "Votre adresse IP est là en cliquant sur l'image ci-dessous",
+      "lien": "https://electricite.html-5.me/others/ip-adress.html",
+      "image": "https://electricite.html-5.me/img/6202873.png"
+    },
+    {
+      "nom": "Diverses choses interressantes",
+      "lien": "https://electricite.html-5.me/others/toto/",
+      "image": "https://electricite.html-5.me/others/toto/lautaro-martinez-argentina_12644311190x786.jpg"
+    },
+    {
+      "nom": "Voici mes autres sites en plus",
+      "lien": "https://electricite.totalh.net",
+      "image": "https://electricite.html-5.me/img/clé_de_sécurité_secure-removebg-preview.png"
+    },
+    {
+      "nom": "NSI Tle",
+      "lien": "https://tifsec-nsi.rf.gd/TNSI",
+      "image": "https://electricite.html-5.me/img/732212.ico"
+    },
+    {
+      "nom": "NSI Nouvelles Versions",
+      "lien": "http://tifsec-nsi.rf.gd/TNSI/?session=Nouvelles Versions",
+      "image": "https://electricite.html-5.me/img/732212.ico"
+    }
+  ]
+}
