@@ -1,1 +1,122 @@
-
+{
+    "en": {
+        "success": "Deleted successfully",
+        "error": "Error during deletion",
+        "delete_all_success": "All records have been deleted successfully",
+        "delete_all_error": "Error during deletion of all records"
+    },
+    "fr": {
+        "success": "Supprimé avec succès",
+        "error": "Erreur lors de la suppression",
+        "delete_all_success": "Tous les enregistrements ont été supprimés avec succès",
+        "delete_all_error": "Erreur lors de la suppression de tous les enregistrements"
+    },
+    "es": {
+        "success": "Eliminado con éxito",
+        "error": "Error durante la eliminación",
+        "delete_all_success": "Todos los registros han sido eliminados con éxito",
+        "delete_all_error": "Error durante la eliminación de todos los registros"
+    },
+    "de": {
+        "success": "Erfolgreich gelöscht",
+        "error": "Fehler bei der Löschung",
+        "delete_all_success": "Alle Datensätze wurden erfolgreich gelöscht",
+        "delete_all_error": "Fehler bei der Löschung aller Datensätze"
+    },
+    "ru": {
+        "success": "Успешно удалено",
+        "error": "Ошибка при удалении",
+        "delete_all_success": "Все записи успешно удалены",
+        "delete_all_error": "Ошибка при удалении всех записей"
+    },
+    "pt": {
+        "success": "Excluído com sucesso",
+        "error": "Erro durante a exclusão",
+        "delete_all_success": "Todos os registros foram excluídos com sucesso",
+        "delete_all_error": "Erro durante a exclusão de todos os registros"
+    },
+    "it": {
+        "success": "Eliminato con successo",
+        "error": "Errore durante l'eliminazione",
+        "delete_all_success": "Tutti i record sono stati eliminati con successo",
+        "delete_all_error": "Errore durante l'eliminazione di tutti i record"
+    },
+    "el": {
+        "success": "Διαγράφηκε με επιτυχία",
+        "error": "Σφάλμα κατά τη διαγραφή",
+        "delete_all_success": "Όλα τα αρχεία διαγράφηκαν με επιτυχία",
+        "delete_all_error": "Σφάλμα κατά τη διαγραφή όλων των αρχείων"
+    },
+    "tr": {
+        "success": "Başarıyla silindi",
+        "error": "Silme hatası",
+        "delete_all_success": "Tüm kayıtlar başarıyla silindi",
+        "delete_all_error": "Tüm kayıtlar silinirken hata oluştu"
+    },
+    "zh": {
+        "success": "删除成功",
+        "error": "删除时出错",
+        "delete_all_success": "所有记录已成功删除",
+        "delete_all_error": "删除所有记录时出错"
+    },
+    "hi": {
+        "success": "सफलतापूर्वक हटा दिया गया",
+        "error": "हटाने में त्रुटि",
+        "delete_all_success": "सभी रिकॉर्ड सफलतापूर्वक हटा दिए गए",
+        "delete_all_error": "सभी रिकॉर्ड हटाने में त्रुटि"
+    },
+    "bn": {
+        "success": "সফলভাবে মুছে ফেলা হয়েছে",
+        "error": "মুছে ফেলার সময় ত্রুটি",
+        "delete_all_success": "সমস্ত রেকর্ড সফলভাবে মুছে ফেলা হয়েছে",
+        "delete_all_error": "সমস্ত রেকর্ড মুছতে ত্রুটি"
+    },
+    "ur": {
+        "success": "کامیابی کے ساتھ حذف کردیا گیا",
+        "error": "حذف کرنے میں خرابی",
+        "delete_all_success": "تمام ریکارڈ کامیابی سے حذف کر دیے گئے",
+        "delete_all_error": "تمام ریکارڈ حذف کرنے میں خرابی"
+    },
+    "pl": {
+        "success": "Usunięto pomyślnie",
+        "error": "Błąd podczas usuwania",
+        "delete_all_success": "Wszystkie rekordy zostały pomyślnie usunięte",
+        "delete_all_error": "Błąd podczas usuwania wszystkich rekordów"
+    },
+    "ro": {
+        "success": "Șters cu succes",
+        "error": "Eroare la ștergere",
+        "delete_all_success": "Toate înregistrările au fost șterse cu succes",
+        "delete_all_error": "Eroare la ștergerea tuturor înregistrărilor"
+    },
+    "jv": {
+        "success": "Kasusunan sukses",
+        "error": "Kesalahan nalika mbusak",
+        "delete_all_success": "Kabeh cathetan wis kasil dibusak",
+        "delete_all_error": "Kesalahan nalika mbusak kabeh cathetan"
+    },
+    "nl": {
+        "success": "Succesvol verwijderd",
+        "error": "Fout bij het verwijderen",
+        "delete_all_success": "Alle records zijn succesvol verwijderd",
+        "delete_all_error": "Fout bij het verwijderen van alle records"
+    },
+    "ja": {
+        "success": "正常に削除されました",
+        "error": "削除中にエラーが発生しました",
+        "delete_all_success": "すべてのレコードが正常に削除されました",
+        "delete_all_error": "すべてのレコードの削除中にエラーが発生しました"
+    },
+    "ar": {
+        "success": "تم الحذف بنجاح",
+        "error": "خطأ أثناء الحذف",
+        "delete_all_success": "تم حذف جميع السجلات بنجاح",
+        "delete_all_error": "حدث خطأ أثناء حذف جميع السجلات"
+    },
+    "np": {
+        "success": "सफलतापूर्वक मेटाइएको",
+        "error": "हटाउने क्रममा समस्या",
+        "delete_all_success": "सबै रेकर्ड सफलतापूर्वक मेटाइएको",
+        "delete_all_error": "सबै रेकर्ड मेटाउन त्रुटि"
+    }
+}
