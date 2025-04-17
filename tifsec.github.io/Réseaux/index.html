@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cours & Exos Réseaux</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      margin: 0;
+    }
+    .sidebar {
+      width: 250px;
+      background: #f4f4f4;
+      border-right: 1px solid #ccc;
+      padding: 1rem;
+      overflow-y: auto;
+    }
+    .content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .iframe-container {
+      flex-grow: 1;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 0.3rem 0;
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+      cursor: pointer;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Cours</h2>
+    <ul>
+      <li><a onclick="loadPDF('Cours/Adresse et DNS.pdf')">Adresse et DNS.pdf</a></li>
+      <li><a onclick="loadPDF('Cours/Adresse Exo.pdf')">Adresse Exo.pdf</a></li>
+      <li><a onclick="loadPDF('Cours/DNS Exo.pdf')">DNS Exo.pdf</a></li>
+      <li><a onclick="loadPDF('Cours/Representation réseaux.pdf')">Representation réseaux.pdf</a></li>
+      <li><a onclick="loadPDF('Cours/Résumé cours Adresses partie 1.pdf')">Résumé cours Adresses partie 1.pdf</a></li>
+      <li><a onclick="loadPDF('Cours/Résumé cours Adresses partie 2.pdf')">Résumé cours Adresses partie 2.pdf</a></li>
+      <li><a onclick="loadPDF('Cours/Résumé cours DNS.pdf')">Résumé cours DNS.pdf</a></li>
+    </ul>
+    <h2>Exos</h2>
+    <ul>
+      <li><a onclick="loadPDF('Exos/0 - Démarche à suivre pour les exercices.pdf')">0 - Démarche à suivre pour les exercices.pdf</a></li>
+      <li><a onclick="loadPDF('Exos/1 - Adresse Exo.pdf')">1 - Adresse Exo.pdf</a></li>
+      <li><a onclick="loadPDF('Exos/2 - DNS Exo.pdf')">2 - DNS Exo.pdf</a></li>
+      <li><a onclick="loadPDF('Exos/4 - Exo 1.pdf')">4 - Exo 1.pdf</a></li>
+      <li><a onclick="loadPDF('Exos/5 - Exo 2.pdf')">5 - Exo 2.pdf</a></li>
+      <li><a onclick="loadPDF('Exos/6 - Exo 3.pdf')">6 - Exo 3.pdf</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <div class="iframe-container">
+      <iframe id="pdfViewer" src=""></iframe>
+    </div>
+  </div>
+
+  <script>
+    function loadPDF(filename) {
+      const path = `pdfs/${filename}`;
+      document.getElementById('pdfViewer').src = path;
+    }
+  </script>
+</body>
+</html>
