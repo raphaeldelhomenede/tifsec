@@ -56,22 +56,22 @@
   <div class="sidebar">
     <h2>Cours</h2>
     <ul>
-      <li><a onclick="loadPDF('Cours/Adresse et DNS.pdf')">Adresse et DNS.pdf</a></li>
-      <li><a onclick="loadPDF('Cours/Adresse Exo.pdf')">Adresse Exo.pdf</a></li>
-      <li><a onclick="loadPDF('Cours/DNS Exo.pdf')">DNS Exo.pdf</a></li>
-      <li><a onclick="loadPDF('Cours/Representation réseaux.pdf')">Representation réseaux.pdf</a></li>
-      <li><a onclick="loadPDF('Cours/Résumé cours Adresses partie 1.pdf')">Résumé cours Adresses partie 1.pdf</a></li>
-      <li><a onclick="loadPDF('Cours/Résumé cours Adresses partie 2.pdf')">Résumé cours Adresses partie 2.pdf</a></li>
-      <li><a onclick="loadPDF('Cours/Résumé cours DNS.pdf')">Résumé cours DNS.pdf</a></li>
+      <li><a href="?Cours=AdresseDNS">Adresse et DNS.pdf</a></li>
+      <li><a href="?Cours=AdresseExo">Adresse Exo.pdf</a></li>
+      <li><a href="?Cours=DNSExo">DNS Exo.pdf</a></li>
+      <li><a href="?Cours=RepresentationRéseaux">Representation réseaux.pdf</a></li>
+      <li><a href="?Cours=RésuméCoursAdressesPartie1">Résumé cours Adresses partie 1.pdf</a></li>
+      <li><a href="?Cours=RésuméCoursAdressesPartie2">Résumé cours Adresses partie 2.pdf</a></li>
+      <li><a href="?Cours=RésuméCoursDNS">Résumé cours DNS.pdf</a></li>
     </ul>
     <h2>Exos</h2>
     <ul>
-      <li><a onclick="loadPDF('Exos/0 - Démarche à suivre pour les exercices.pdf')">0 - Démarche à suivre pour les exercices.pdf</a></li>
-      <li><a onclick="loadPDF('Exos/1 - Adresse Exo.pdf')">1 - Adresse Exo.pdf</a></li>
-      <li><a onclick="loadPDF('Exos/2 - DNS Exo.pdf')">2 - DNS Exo.pdf</a></li>
-      <li><a onclick="loadPDF('Exos/4 - Exo 1.pdf')">4 - Exo 1.pdf</a></li>
-      <li><a onclick="loadPDF('Exos/5 - Exo 2.pdf')">5 - Exo 2.pdf</a></li>
-      <li><a onclick="loadPDF('Exos/6 - Exo 3.pdf')">6 - Exo 3.pdf</a></li>
+      <li><a href="?Exos=0">0 - Démarche à suivre pour les exercices.pdf</a></li>
+      <li><a href="?Exos=1">1 - Adresse Exo.pdf</a></li>
+      <li><a href="?Exos=2">2 - DNS Exo.pdf</a></li>
+      <li><a href="?Exos=4">4 - Exo 1.pdf</a></li>
+      <li><a href="?Exos=5">5 - Exo 2.pdf</a></li>
+      <li><a href="?Exos=6">6 - Exo 3.pdf</a></li>
     </ul>
   </div>
   <div class="content">
@@ -81,10 +81,33 @@
   </div>
 
   <script>
-    function loadPDF(filename) {
-      const path = `${filename}`;
-      document.getElementById('pdfViewer').src = path;
+    const fileMap = {
+      'Cours=AdresseDNS': 'Cours/Adresse et DNS.pdf',
+      'Cours=AdresseExo': 'Cours/Adresse Exo.pdf',
+      'Cours=DNSExo': 'Cours/DNS Exo.pdf',
+      'Cours=RepresentationRéseaux': 'Cours/Representation réseaux.pdf',
+      'Cours=RésuméCoursAdressesPartie1': 'Cours/Résumé cours Adresses partie 1.pdf',
+      'Cours=RésuméCoursAdressesPartie2': 'Cours/Résumé cours Adresses partie 2.pdf',
+      'Cours=RésuméCoursDNS': 'Cours/Résumé cours DNS.pdf',
+      'Exos=0': 'Exos/0 - Démarche à suivre pour les exercices.pdf',
+      'Exos=1': 'Exos/1 - Adresse Exo.pdf',
+      'Exos=2': 'Exos/2 - DNS Exo.pdf',
+      'Exos=4': 'Exos/4 - Exo 1.pdf',
+      'Exos=5': 'Exos/5 - Exo 2.pdf',
+      'Exos=6': 'Exos/6 - Exo 3.pdf',
+    };
+
+    function getPDFfromURL() {
+      const params = new URLSearchParams(window.location.search);
+      for (const [key, value] of params) {
+        const fullKey = `${key}=${value}`;
+        if (fileMap[fullKey]) {
+          document.getElementById('pdfViewer').src = fileMap[fullKey];
+        }
+      }
     }
+
+    window.onload = getPDFfromURL;
   </script>
 </body>
 </html>
