@@ -1,0 +1,22 @@
+[
+  { "code": "en", "img": "Flag_of_the_United_Kingdom.png", "alt": "English flag", "label": "English" },
+  { "code": "fr", "img": "Flag_of_France.svg.png", "alt": "French flag", "label": "Français" },
+  { "code": "es", "img": "Flag_of_Spain.svg.webp", "alt": "Spanish flag", "label": "Español" },
+  { "code": "de", "img": "Flag_of_Germany.svg.webp", "alt": "German flag", "label": "Deutsch" },
+  { "code": "ru", "img": "Flag_of_Russia.svg.png", "alt": "Russian flag", "label": "Русский" },
+  { "code": "pt", "img": "Flag_of_Portugal.svg.png", "alt": "Portuguese flag", "label": "Português" },
+  { "code": "it", "img": "Flag_of_Italy.svg.png", "alt": "Italian flag", "label": "Italiano" },
+  { "code": "el", "img": "Flag_of_Greece.svg.png", "alt": "Greek flag", "label": "Ελληνικά" },
+  { "code": "tr", "img": "Flag_of_Turkey.svg.png", "alt": "Turkish flag", "label": "Türkçe" },
+  { "code": "zh", "img": "Flag_of_the_People's_Republic_of_China.svg.webp", "alt": "Chinese flag", "label": "中文 (Mandarin)" },
+  { "code": "hi", "img": "Flag_of_India.svg.png", "alt": "Indian flag", "label": "हिंदी" },
+  { "code": "bn", "img": "bn.png", "alt": "Bengali flag", "label": "বাংলা" },
+  { "code": "ur", "img": "pk.png", "alt": "Pakistani flag", "label": "اردو" },
+  { "code": "pl", "img": "Flag_of_Poland.svg.png", "alt": "Polish flag", "label": "Polski" },
+  { "code": "ro", "img": "ro.png", "alt": "Romanian flag", "label": "Română" },
+  { "code": "jv", "img": "id.png", "alt": "Indonesian flag", "label": "Jawa (Javanais)" },
+  { "code": "nl", "img": "nl.png", "alt": "Dutch flag", "label": "Nederlands" },
+  { "code": "ja", "img": "jp.png", "alt": "Japanese flag", "label": "日本語" },
+  { "code": "ar", "img": "sa.png", "alt": "Saudi Arabian flag", "label": "العربية" },
+  { "code": "np", "img": "np.png", "alt": "Nepalese flag", "label": "नेपाली" }
+]
