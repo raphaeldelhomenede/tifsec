@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+#language-selector {
+    background-color: #fff;
+    color: #333;
+    font-size: 1em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #00e5ff;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#language-selector:hover {
+    border-color: #00b8d4;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+#language-selector option {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#language-selector option:hover {
+    background-color: #e0f7fa;
+    color: #00796b;
+}
+
+#language-selector option:checked {
+    background-color: #00e5ff;
+    color: #fff;
+}
+
+#language-selector::-ms-expand {
+    display: none;
+}
+
+#language-selector option {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #ffffff;
+}
+
+#language-selector option:selected {
+    background-color: #00e5ff;
+    color: white;
+}
+
+.img-flag {
+    width: auto;
+    height: 17px;
+    margin-right: 10px;
+}
+.select2-results__option[data-select2-id="np"] img {
+    height: -5px !important;
+}
+#language-selector {
+    -webkit-appearance: none;  
+    -moz-appearance: none;     
+    appearance: none;          
+    background-image: url('https://cdn-icons-png.flaticon.com/512/753/753318.png'); 
+    background-repeat: no-repeat;
+    background-position: right 10px center; 
+    background-size: 20px;  
+}
