@@ -1,0 +1,10 @@
+{
+  "localhost": {
+    "current_domain1": "http://localhost/urlshortner/",
+    "current_domain22": "http://localhost/urlshortner/"
+  },
+  "zu.ct.ws": {
+    "current_domain1": "https://zu.ct.ws/",
+    "current_domain22": "https://zu.ct.ws/"
+  }
+}
