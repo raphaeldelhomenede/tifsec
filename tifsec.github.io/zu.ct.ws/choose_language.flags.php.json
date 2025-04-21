@@ -1,0 +1,22 @@
+{
+  "1": { "src": "Flag_of_the_United_Kingdom.png", "alt": "English flag" },
+  "2": { "src": "Flag_of_France.svg.png", "alt": "French flag" },
+  "3": { "src": "Flag_of_Spain.svg.webp", "alt": "Spanish flag" },
+  "4": { "src": "Flag_of_Germany.svg.webp", "alt": "German flag" },
+  "5": { "src": "Flag_of_Russia.svg.png", "alt": "Russian flag" },
+  "6": { "src": "Flag_of_Portugal.svg.png", "alt": "Portuguese flag" },
+  "7": { "src": "Flag_of_Italy.svg.png", "alt": "Italian flag" },
+  "8": { "src": "Flag_of_Greece.svg.png", "alt": "Greek flag" },
+  "9": { "src": "Flag_of_Turkey.svg.png", "alt": "Turkish flag" },
+  "10": { "src": "Flag_of_the_People's_Republic_of_China.svg.webp", "alt": "Chinese flag" },
+  "11": { "src": "Flag_of_India.svg.png", "alt": "Indian flag" },
+  "12": { "src": "bn.png", "alt": "Bengali flag" },
+  "13": { "src": "pk.png", "alt": "Pakistani flag" },
+  "14": { "src": "Flag_of_Poland.svg.png", "alt": "Polish flag" },
+  "15": { "src": "ro.png", "alt": "Romanian flag" },
+  "16": { "src": "id.png", "alt": "Indonesian flag" },
+  "17": { "src": "nl.png", "alt": "Dutch flag" },
+  "18": { "src": "jp.png", "alt": "Japanese flag" },
+  "19": { "src": "sa.png", "alt": "Saudi Arabian flag" },
+  "20": { "src": "np.png", "alt": "Nepalese flag" }
+}
