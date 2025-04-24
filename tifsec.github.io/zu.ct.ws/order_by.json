@@ -1,10 +1,22 @@
 {
-    "id-ASC": "ORDER BY id ASC",
-    "id-DESC": "ORDER BY id DESC",
-    "full_url-ASC": "ORDER BY full_url ASC",
-    "full_url-DESC": "ORDER BY full_url DESC",
-    "shorten_url-ASC": "ORDER BY shorten_url ASC",
-    "shorten_url-DESC": "ORDER BY shorten_url DESC",
-    "clicks-ASC": "ORDER BY clicks ASC",
-    "clicks-DESC": "ORDER BY clicks DESC"
+    {
+        "id-ASC",
+        "id-DESC",
+        "full_url-ASC",
+        "full_url-DESC",
+        "shorten_url-ASC",
+        "shorten_url-DESC",
+        "clicks-ASC",
+        "clicks-DESC"
+    },
+    {
+        "ORDER BY id ASC",
+        "ORDER BY id DESC",
+        "ORDER BY full_url ASC",
+        "ORDER BY full_url DESC",
+        "ORDER BY shorten_url ASC",
+        "ORDER BY shorten_url DESC",
+        "ORDER BY clicks ASC",
+        "ORDER BY clicks DESC"
+    }
 }
