@@ -1,0 +1,93 @@
+#trier-par {
+  background-color: #20b2aa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  max-width: 390px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+#trier-par:focus {
+  outline: none;
+  border-color: #198b7e;
+}
+#trier-par option {
+  padding: 10px;
+  background-color: #20b2aa;
+  color: black;
+  border: none;
+  font-size: 16px;
+}
+#trier-par option:hover {
+  background-color: #198b7e;
+  cursor: pointer;
+}
+#trier-par option:checked {
+  background-color: #198b7e;
+  color: white;
+}
+#trier-par:hover {
+  background-color: #198b7e;
+  cursor: pointer;
+}   
+#trier-par option:hover {
+  background-color: #ddd;
+} 
+button[caca="caca"] {
+  width: 100%; 
+}
+th.sorting {
+  background-color: #198b7e;
+  color: white;
+} 
+#search_value[name="search_value"] {
+  width: 100%;
+} 
+select[id="trier-par"][name="order-by"][caca="caca"] {
+  max-width: none !important; 
+  text-align: center;
+}
+
+.col-id {
+  color: black;
+  width: 10%;
+}
+.col-shortened {
+  color: black;
+  width: 20%;
+}
+.col-fullurl {
+  color:black; 
+  width: 40%;
+}
+.col-clicks {
+  color:black
+  width: 42px;
+}
+.col-infos {
+  color:black;
+  width: 70px;
+}
+@media (max-width: 880px) {
+    .col-shortened {
+        display: none;
+    }
+}
+
+@media (max-width: 710px) {
+    .col-clicks {
+        display: none;
+    }
+    .col-id {
+        width: 60px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .col-fullurl {
+        display: none;
+    }
+}
