@@ -1,0 +1,11 @@
+{
+    "order-by": "Trier par",
+    "id-ASC": "ID Croissant",
+    "id-DESC": "ID Décroissant",
+    "full_url-ASC": "URL complète Croissante",
+    "full_url-DESC": "URL complète Décroissante",
+    "shorten_url-ASC": "URL raccourcie Croissante",
+    "shorten_url-DESC": "URL raccourcie Décroissante",
+    "clicks-DESC": "Clics Décroissants",
+    "clicks-ASC": "Clics Croissants"
+}
