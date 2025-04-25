@@ -900,7 +900,8 @@
         "of_all_clicks": "सभी क्लिकों में से",
         "Position": "स्थिति",
         "among_most_clicked_links": "सबसे अधिक क्लिक किए गए लिंक में",
-        "No_shorten_url_provided": "कोई संक्षिप्त URL प्रदान नहीं किया गया"
+        "No_shorten_url_provided": "कोई संक्षिप्त URL प्रदान नहीं किया गया",
+        "cannot_modify_link": "आप इस लिंक को संशोधित नहीं कर सकते!"
     },
     "bn": {
         "title": "PHP এ URL সংক্ষিপ্তকারী | CodingNepal",
@@ -982,7 +983,8 @@
         "of_all_clicks": "সর্বমোট ক্লিকের মধ্যে",
         "Position": "অবস্থান",
         "among_most_clicked_links": "সবচেয়ে ক্লিক করা লিঙ্কগুলির মধ্যে",
-        "No_shorten_url_provided": "কোনও সংক্ষিপ্ত URL প্রদান করা হয়নি"
+        "No_shorten_url_provided": "কোনও সংক্ষিপ্ত URL প্রদান করা হয়নি",
+        "cannot_modify_link": "আপনি এই লিঙ্কটি পরিবর্তন করতে পারবেন না!"
     },
     "ur": {
         "title": "PHP میں URL مختصر کرنے والا | CodingNepal",
@@ -1064,7 +1066,8 @@
         "of_all_clicks": "تمام کلکوں میں سے",
         "Position": "مقام",
         "among_most_clicked_links": "سب سے زیادہ کلک کیے جانے والے لنکس میں",
-        "No_shorten_url_provided": "کوئی مختصر URL فراہم نہیں کیا گیا"
+        "No_shorten_url_provided": "کوئی مختصر URL فراہم نہیں کیا گیا",
+        "cannot_modify_link": "آپ اس لنک کو تبدیل نہیں کر سکتے!"
     },
     "pl": {
         "title": "Skracacz URL w PHP | CodingNepal",
@@ -1146,7 +1149,8 @@
         "of_all_clicks": "ze wszystkich kliknięć",
         "Position": "Pozycja",
         "among_most_clicked_links": "wśród najczęściej klikanych linków",
-        "No_shorten_url_provided": "Nie podano skróconego URL"
+        "No_shorten_url_provided": "Nie podano skróconego URL",
+        "cannot_modify_link": "Nie możesz edytować tego linku!"
     },
     "ro": {
         "title": "Scurtător URL în PHP | CodingNepal",
@@ -1228,7 +1232,8 @@
         "of_all_clicks": "din toate clicurile",
         "Position": "Poziție",
         "among_most_clicked_links": "printre cele mai accesate linkuri",
-        "No_shorten_url_provided": "Nu a fost furnizat niciun URL scurtat"
+        "No_shorten_url_provided": "Nu a fost furnizat niciun URL scurtat",
+        "cannot_modify_link": "Nu poți modifica acest link"
     },
     "jv": {
         "title": "URL Singkat ing PHP | CodingNepal",
@@ -1310,7 +1315,8 @@
         "of_all_clicks": "saka kabeh klik",
         "Position": "Posisi",
         "among_most_clicked_links": "antaré link sing paling sering diklik",
-        "No_shorten_url_provided": "Ora ana URL sing disedhiyakake"
+        "No_shorten_url_provided": "Ora ana URL sing disedhiyakake",
+        "cannot_modify_link": "Sampeyan ora bisa ngowahi pranala iki!"
     },
     "nl": {
         "title": "URL-verkorter in PHP | CodingNepal",
@@ -1392,7 +1398,8 @@
         "of_all_clicks": "van alle klikken",
         "Position": "Positie",
         "among_most_clicked_links": "onder de meest geklikte links",
-        "No_shorten_url_provided": "Geen verkorte URL verstrekt"
+        "No_shorten_url_provided": "Geen verkorte URL verstrekt",
+        "cannot_modify_link": "Je kunt deze link niet wijzigen!"
     },
     "ja": {
         "title": "PHPのURL短縮ツール | CodingNepal",
@@ -1474,7 +1481,8 @@
         "of_all_clicks": "すべてのクリックの中で",
         "Position": "位置",
         "among_most_clicked_links": "最もクリックされたリンクの中で",
-        "No_shorten_url_provided": "短縮URLは提供されていません"
+        "No_shorten_url_provided": "短縮URLは提供されていません",
+        "cannot_modify_link": "このリンクを変更することはできません!"
     },
     "ar": {
         "title": "تقليل الروابط في PHP | CodingNepal",
@@ -1556,7 +1564,8 @@
         "of_all_clicks": "من جميع النقرات",
         "Position": "الموضع",
         "among_most_clicked_links": "من بين أكثر الروابط تم النقر عليها",
-        "No_shorten_url_provided": "لم يتم توفير رابط مختصر"
+        "No_shorten_url_provided": "لم يتم توفير رابط مختصر",
+        "cannot_modify_link": "لا يمكنك تعديل هذا الرابط!"
     },
     "np": {
         "title": "PHP मा URL छोट्याउने | CodingNepal",
@@ -1637,6 +1646,7 @@
         "of_all_clicks": "सबै क्लिकहरू मध्ये",
         "Position": "पद",
         "among_most_clicked_links": "सबैभन्दा बढी क्लिक गरिएका लिंकहरू बीचमा",
-        "No_shorten_url_provided": "कुनै छोटो URL प्रदान गरिएको छैन"
+        "No_shorten_url_provided": "कुनै छोटो URL प्रदान गरिएको छैन",
+        "cannot_modify_link": "तपाईं यो लिंक परिवर्तन गर्न सक्नुहुन्न!"
     }
 }
