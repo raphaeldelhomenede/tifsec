@@ -1,11 +1,11 @@
 {
-    "": "Trier par",
-    "id-ASC": "ID Croissant",
-    "id-DESC": "ID Décroissant",
-    "full_url-ASC": "URL complète Croissante",
-    "full_url-DESC": "URL complète Décroissante",
-    "shorten_url-ASC": "URL raccourcie Croissante",
-    "shorten_url-DESC": "URL raccourcie Décroissante",
-    "clicks-DESC": "Clics Décroissants",
-    "clicks-ASC": "Clics Croissants"
+    "": "order-by",
+    "id-ASC": "id-ASC",
+    "id-DESC": "id-DESC",
+    "full_url-ASC": "full_url-ASC",
+    "full_url-DESC": "full_url-DESC",
+    "shorten_url-ASC": "shorten_url-ASC",
+    "shorten_url-DESC": "shorten_url-DESC",
+    "clicks-DESC": "clicks-DESC",
+    "clicks-ASC": "clicks-ASC"
 }
