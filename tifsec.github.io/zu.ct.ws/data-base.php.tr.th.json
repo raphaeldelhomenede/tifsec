@@ -1,9 +1,9 @@
 {
     "columns": {
         "id": "ID",
-        "shortened_url": "Shortened URL",
-        "full_url": "Full URL",
-        "total_clicks": "Total Clicks",
-        "link_details": "Link Details"
+        "shortened": "Shortened URL",
+        "fullurl": "Full URL",
+        "clicks": "Total Clicks",
+        "infos": "Link Details"
     }
 }
