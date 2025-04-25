@@ -3,7 +3,8 @@
         "success": "Deleted successfully",
         "error": "Error during deletion",
         "delete_all_success": "All records have been deleted successfully",
-        "delete_all_error": "Error during deletion of all records"
+        "delete_all_error": "Error during deletion of all records",
+        "cannot_delete_link": "You cannot delete this link!"
     },
     "fr": {
         "success": "Supprimé avec succès",
@@ -16,108 +17,126 @@
         "success": "Eliminado con éxito",
         "error": "Error durante la eliminación",
         "delete_all_success": "Todos los registros han sido eliminados con éxito",
-        "delete_all_error": "Error durante la eliminación de todos los registros"
+        "delete_all_error": "Error durante la eliminación de todos los registros",
+        "cannot_delete_link": "¡No puedes eliminar este enlace!"
     },
     "de": {
         "success": "Erfolgreich gelöscht",
         "error": "Fehler bei der Löschung",
         "delete_all_success": "Alle Datensätze wurden erfolgreich gelöscht",
-        "delete_all_error": "Fehler bei der Löschung aller Datensätze"
+        "delete_all_error": "Fehler bei der Löschung aller Datensätze",
+        "cannot_delete_link": "Sie können diesen Link nicht löschen!"
     },
     "ru": {
         "success": "Успешно удалено",
         "error": "Ошибка при удалении",
         "delete_all_success": "Все записи успешно удалены",
-        "delete_all_error": "Ошибка при удалении всех записей"
+        "delete_all_error": "Ошибка при удалении всех записей",
+        "cannot_delete_link": "Вы не можете удалить эту ссылку!"
     },
     "pt": {
         "success": "Excluído com sucesso",
         "error": "Erro durante a exclusão",
         "delete_all_success": "Todos os registros foram excluídos com sucesso",
-        "delete_all_error": "Erro durante a exclusão de todos os registros"
+        "delete_all_error": "Erro durante a exclusão de todos os registros",
+        "cannot_delete_link": "Você não pode excluir este link!"
     },
     "it": {
         "success": "Eliminato con successo",
         "error": "Errore durante l'eliminazione",
         "delete_all_success": "Tutti i record sono stati eliminati con successo",
-        "delete_all_error": "Errore durante l'eliminazione di tutti i record"
+        "delete_all_error": "Errore durante l'eliminazione di tutti i record",
+        "cannot_delete_link": "Non puoi eliminare questo link!"
     },
     "el": {
         "success": "Διαγράφηκε με επιτυχία",
         "error": "Σφάλμα κατά τη διαγραφή",
         "delete_all_success": "Όλα τα αρχεία διαγράφηκαν με επιτυχία",
-        "delete_all_error": "Σφάλμα κατά τη διαγραφή όλων των αρχείων"
+        "delete_all_error": "Σφάλμα κατά τη διαγραφή όλων των αρχείων",
+        "cannot_delete_link": "Δεν μπορείτε να διαγράψετε αυτόν τον σύνδεσμο!"
     },
     "tr": {
         "success": "Başarıyla silindi",
         "error": "Silme hatası",
         "delete_all_success": "Tüm kayıtlar başarıyla silindi",
-        "delete_all_error": "Tüm kayıtlar silinirken hata oluştu"
+        "delete_all_error": "Tüm kayıtlar silinirken hata oluştu",
+        "cannot_delete_link": "Bu bağlantıyı silemezsiniz!"
     },
     "zh": {
         "success": "删除成功",
         "error": "删除时出错",
         "delete_all_success": "所有记录已成功删除",
-        "delete_all_error": "删除所有记录时出错"
+        "delete_all_error": "删除所有记录时出错",
+        "cannot_delete_link": "您不能删除此链接！"
     },
     "hi": {
         "success": "सफलतापूर्वक हटा दिया गया",
         "error": "हटाने में त्रुटि",
         "delete_all_success": "सभी रिकॉर्ड सफलतापूर्वक हटा दिए गए",
-        "delete_all_error": "सभी रिकॉर्ड हटाने में त्रुटि"
+        "delete_all_error": "सभी रिकॉर्ड हटाने में त्रुटि",
+        "cannot_delete_link": "आप इस लिंक को हटा नहीं सकते!"
     },
     "bn": {
         "success": "সফলভাবে মুছে ফেলা হয়েছে",
         "error": "মুছে ফেলার সময় ত্রুটি",
         "delete_all_success": "সমস্ত রেকর্ড সফলভাবে মুছে ফেলা হয়েছে",
-        "delete_all_error": "সমস্ত রেকর্ড মুছতে ত্রুটি"
+        "delete_all_error": "সমস্ত রেকর্ড মুছতে ত্রুটি",
+        "cannot_delete_link": "আপনি এই লিঙ্কটি মুছে ফেলতে পারবেন না!"
     },
     "ur": {
         "success": "کامیابی کے ساتھ حذف کردیا گیا",
         "error": "حذف کرنے میں خرابی",
         "delete_all_success": "تمام ریکارڈ کامیابی سے حذف کر دیے گئے",
-        "delete_all_error": "تمام ریکارڈ حذف کرنے میں خرابی"
+        "delete_all_error": "تمام ریکارڈ حذف کرنے میں خرابی",
+        "cannot_delete_link": "آپ اس لنک کو حذف نہیں کر سکتے!"
     },
     "pl": {
         "success": "Usunięto pomyślnie",
         "error": "Błąd podczas usuwania",
         "delete_all_success": "Wszystkie rekordy zostały pomyślnie usunięte",
-        "delete_all_error": "Błąd podczas usuwania wszystkich rekordów"
+        "delete_all_error": "Błąd podczas usuwania wszystkich rekordów",
+        "cannot_delete_link": "Nie możesz usunąć tego łącza!"
     },
     "ro": {
         "success": "Șters cu succes",
         "error": "Eroare la ștergere",
         "delete_all_success": "Toate înregistrările au fost șterse cu succes",
-        "delete_all_error": "Eroare la ștergerea tuturor înregistrărilor"
+        "delete_all_error": "Eroare la ștergerea tuturor înregistrărilor",
+        "cannot_delete_link": "Nu poți șterge acest link!"
     },
     "jv": {
         "success": "Kasusunan sukses",
         "error": "Kesalahan nalika mbusak",
         "delete_all_success": "Kabeh cathetan wis kasil dibusak",
-        "delete_all_error": "Kesalahan nalika mbusak kabeh cathetan"
+        "delete_all_error": "Kesalahan nalika mbusak kabeh cathetan",
+        "cannot_delete_link": "Sampeyan ora bisa mbusak pranala iki!"
     },
     "nl": {
         "success": "Succesvol verwijderd",
         "error": "Fout bij het verwijderen",
         "delete_all_success": "Alle records zijn succesvol verwijderd",
-        "delete_all_error": "Fout bij het verwijderen van alle records"
+        "delete_all_error": "Fout bij het verwijderen van alle records",
+        "cannot_delete_link": "Je kunt deze link niet verwijderen!"
     },
     "ja": {
         "success": "正常に削除されました",
         "error": "削除中にエラーが発生しました",
         "delete_all_success": "すべてのレコードが正常に削除されました",
-        "delete_all_error": "すべてのレコードの削除中にエラーが発生しました"
+        "delete_all_error": "すべてのレコードの削除中にエラーが発生しました",
+        "cannot_delete_link": "このリンクを削除することはできません！"
     },
     "ar": {
         "success": "تم الحذف بنجاح",
         "error": "خطأ أثناء الحذف",
         "delete_all_success": "تم حذف جميع السجلات بنجاح",
-        "delete_all_error": "حدث خطأ أثناء حذف جميع السجلات"
+        "delete_all_error": "حدث خطأ أثناء حذف جميع السجلات",
+        "cannot_delete_link": "لا يمكنك حذف هذا الرابط!"
     },
     "np": {
         "success": "सफलतापूर्वक मेटाइएको",
         "error": "हटाउने क्रममा समस्या",
         "delete_all_success": "सबै रेकर्ड सफलतापूर्वक मेटाइएको",
-        "delete_all_error": "सबै रेकर्ड मेटाउन त्रुटि"
+        "delete_all_error": "सबै रेकर्ड मेटाउन त्रुटि",
+        "cannot_delete_link": "तपाईं यस लिङ्कलाई मेट्न सक्नुहुन्न!"
     }
 }
