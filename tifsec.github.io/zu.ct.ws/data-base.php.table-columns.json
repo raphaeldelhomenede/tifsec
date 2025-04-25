@@ -1,7 +1,0 @@
-[
-  { "class": "col-id", "content": "id", "data": ["full_url", "clicks"] },
-  { "class": "col-shortened", "content": "shorten_url", "isLink": true },
-  { "class": "col-fullurl", "content": "full_url" },
-  { "class": "col-clicks", "content": "clicks" },
-  { "class": "col-infos", "content": "link_details", "isDetailLink": true }
-]
