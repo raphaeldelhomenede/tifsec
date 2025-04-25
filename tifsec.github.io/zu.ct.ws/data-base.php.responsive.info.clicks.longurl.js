@@ -15,8 +15,8 @@ function handleResponsiveBehavior() {
                     const showClicks = document.getElementById("show-clicks").checked;
 
                     let message = "";
-                    if (showUrl) message += "URL : " + url + "\n";
-                    if (showClicks) message += "Clics : " + clicks;
+                    if (showUrl) message += url + "\n";
+                    if (showClicks) message += clicks;
 
                     if (message) alert(message);
                 });
