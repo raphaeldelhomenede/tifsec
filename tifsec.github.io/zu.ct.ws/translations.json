@@ -159,7 +159,8 @@
         "of_all_clicks": "de tous les clics",
         "Position": "Position",
         "among_most_clicked_links": "parmi les liens les plus cliqués",
-        "No_shorten_url_provided": "Aucun URL raccourci fourni"
+        "No_shorten_url_provided": "Aucun URL raccourci fourni",
+        "cannot_modify_link": "Vous ne pouvez pas modifier ce lien"
     },
     "es": {
         "title": "Acortador de URL en PHP | CodingNepal",
