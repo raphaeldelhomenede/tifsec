@@ -54,7 +54,7 @@ select[id="trier-par"][name="order-by"][caca="caca"] {
 .col-id { color: black; width: 10%; }
 .col-shortened { color: black; width: 20%; }
 .col-fullurl { color: black; width: 40%; }
-.col-clicks { color: black; width: 50px; }
+.col-clicks { color: black; width: 42px; }
 .col-infos { color: black; width: 70px; }
 
 @media (max-width: 880px) {
