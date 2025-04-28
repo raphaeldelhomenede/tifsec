@@ -1508,7 +1508,8 @@
         "among_most_clicked_links": "最もクリックされたリンクの中で",
         "No_shorten_url_provided": "短縮URLは提供されていません",
         "cannot_modify_link": "このリンクを変更することはできません!",
-        "link_details": "リンクの詳細"
+        "link_details": "リンクの詳細",
+        "Clicks": "クリック数"
     },
     "ar": {
         "title": "تقليل الروابط في PHP | CodingNepal",
