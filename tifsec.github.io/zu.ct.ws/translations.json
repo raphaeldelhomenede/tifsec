@@ -675,7 +675,9 @@
         "among_most_clicked_links": "ανάμεσα στους πιο κλικαρισμένους συνδέσμους",
         "No_shorten_url_provided": "Δεν παρέχεται συντομευμένη διεύθυνση URL",
         "cannot_modify_link": "Δεν μπορείτε να τροποποιήσετε αυτόν τον σύνδεσμο!",
-        "link_details": "Λεπτομέρειες συνδέσμου"
+        "link_details": "Λεπτομέρειες συνδέσμου",
+        "Clicks": "Κλικ",
+        "Rank": "Βαθμός"
     },
     "tr": {
         "title": "PHP'de URL Kısaltıcı | CodingNepal",
@@ -759,7 +761,9 @@
         "among_most_clicked_links": "en çok tıklanan bağlantılar arasında",
         "No_shorten_url_provided": "Kısaltılmış URL sağlanmadı",
         "cannot_modify_link": "Bu bağlantıyı değiştiremezsiniz!",
-        "link_details": "Bağlantı detayları"
+        "link_details": "Bağlantı detayları",
+        "Clicks": "Tıklamalar",
+        "Rank": "Sıralama"
     },
     "zh": {
         "title": "PHP网址缩短工具 | CodingNepal",
@@ -928,7 +932,9 @@
         "among_most_clicked_links": "सबसे अधिक क्लिक किए गए लिंक में",
         "No_shorten_url_provided": "कोई संक्षिप्त URL प्रदान नहीं किया गया",
         "cannot_modify_link": "आप इस लिंक को संशोधित नहीं कर सकते!",
-        "link_details": "लिंक विवरण"
+        "link_details": "लिंक विवरण",
+        "Clicks": "क्लिक्स",
+        "Rank": "रैंक"
     },
     "bn": {
         "title": "PHP এ URL সংক্ষিপ্তকারী | CodingNepal",
@@ -1012,7 +1018,9 @@
         "among_most_clicked_links": "সবচেয়ে ক্লিক করা লিঙ্কগুলির মধ্যে",
         "No_shorten_url_provided": "কোনও সংক্ষিপ্ত URL প্রদান করা হয়নি",
         "cannot_modify_link": "আপনি এই লিঙ্কটি পরিবর্তন করতে পারবেন না!",
-        "link_details": "লিংক বিবরণ"
+        "link_details": "লিংক বিবরণ",
+        "Clicks": "ক্লিকস",
+        "Rank": "র্যাঙ্ক"
     },
     "ur": {
         "title": "PHP میں URL مختصر کرنے والا | CodingNepal",
@@ -1096,7 +1104,9 @@
         "among_most_clicked_links": "سب سے زیادہ کلک کیے جانے والے لنکس میں",
         "No_shorten_url_provided": "کوئی مختصر URL فراہم نہیں کیا گیا",
         "cannot_modify_link": "آپ اس لنک کو تبدیل نہیں کر سکتے!",
-        "link_details": "لنک کی تفصیلات"
+        "link_details": "لنک کی تفصیلات",
+        "Clicks": "کلکس",
+        "Rank": "رینک"
     },
     "pl": {
         "title": "Skracacz URL w PHP | CodingNepal",
@@ -1180,7 +1190,9 @@
         "among_most_clicked_links": "wśród najczęściej klikanych linków",
         "No_shorten_url_provided": "Nie podano skróconego URL",
         "cannot_modify_link": "Nie możesz edytować tego linku!",
-        "link_details": "Szczegóły linku"
+        "link_details": "Szczegóły linku",
+        "Clicks": "Kliknięcia",
+        "Rank": "Ranga"
     },
     "ro": {
         "title": "Scurtător URL în PHP | CodingNepal",
@@ -1264,7 +1276,9 @@
         "among_most_clicked_links": "printre cele mai accesate linkuri",
         "No_shorten_url_provided": "Nu a fost furnizat niciun URL scurtat",
         "cannot_modify_link": "Nu poți modifica acest link",
-        "link_details": "Detalii link"
+        "link_details": "Detalii link",
+        "Clicks": "Clicuri",
+        "Rank": "Rang"
     },
     "jv": {
         "title": "URL Singkat ing PHP | CodingNepal",
@@ -1348,7 +1362,9 @@
         "among_most_clicked_links": "antaré link sing paling sering diklik",
         "No_shorten_url_provided": "Ora ana URL sing disedhiyakake",
         "cannot_modify_link": "Sampeyan ora bisa ngowahi pranala iki!",
-        "link_details": "Rincian tautan"
+        "link_details": "Rincian tautan",
+        "Clicks": "Kliks",
+        "Rank": "Peringkat
     },
     "nl": {
         "title": "URL-verkorter in PHP | CodingNepal",
@@ -1432,7 +1448,9 @@
         "among_most_clicked_links": "onder de meest geklikte links",
         "No_shorten_url_provided": "Geen verkorte URL verstrekt",
         "cannot_modify_link": "Je kunt deze link niet wijzigen!",
-        "link_details": "Linkdetails"
+        "link_details": "Linkdetails",
+        "Clicks": "Klikken",
+        "Rank": "Rang"
     },
     "ja": {
         "title": "PHPのURL短縮ツール | CodingNepal",
@@ -1602,7 +1620,9 @@
         "among_most_clicked_links": "من بين أكثر الروابط تم النقر عليها",
         "No_shorten_url_provided": "لم يتم توفير رابط مختصر",
         "cannot_modify_link": "لا يمكنك تعديل هذا الرابط!",
-        "link_details": "تفاصيل الرابط"
+        "link_details": "تفاصيل الرابط",
+        "Clicks": "النقرات",
+        "Rank": "الترتيب"
     },
     "np": {
         "title": "PHP मा URL छोट्याउने | CodingNepal",
