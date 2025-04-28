@@ -80,7 +80,8 @@
         "among_most_clicked_links": "among most clicked links",
         "No_shorten_url_provided": "No shorten url provided",
         "cannot_modify_link": "You cannot modify this link!",
-        "link_details": "Link details"
+        "link_details": "Link details",
+        "Clicks": "Clicks"
     },
     "fr": {
         "title": "Raccourcisseur d'URL en PHP | CodingNepal",
@@ -163,7 +164,8 @@
         "among_most_clicked_links": "parmi les liens les plus cliqués",
         "No_shorten_url_provided": "Aucun URL raccourci fourni",
         "cannot_modify_link": "Vous ne pouvez pas modifier ce lien!",
-        "link_details": "Détail du lien"
+        "link_details": "Détail du lien",
+        "Clicks": "Clics"
     },
     "es": {
         "title": "Acortador de URL en PHP | CodingNepal",
@@ -246,7 +248,8 @@
         "among_most_clicked_links": "entre los enlaces más clickeados",
         "No_shorten_url_provided": "No se proporcionó una URL corta",
         "cannot_modify_link": "No puedes modificar este enlace!",
-        "link_details": "Detalles del enlace"
+        "link_details": "Detalles del enlace",
+        "Clicks": "Clics"
     },
     "de": {
         "title": "URL-Verkürzer in PHP | CodingNepal",
@@ -329,7 +332,8 @@
         "among_most_clicked_links": "unter den am meisten geklickten Links",
         "No_shorten_url_provided": "Keine gekürzte URL angegeben",
         "cannot_modify_link": "Sie können diesen Link nicht bearbeiten!",
-        "link_details": "Linkdetails"
+        "link_details": "Linkdetails",
+        "Clicks": "Kliks"
     },
     "ru": {
         "title": "Сокращатель URL на PHP | CodingNepal",
@@ -412,7 +416,8 @@
         "among_most_clicked_links": "среди самых кликаемых ссылок",
         "No_shorten_url_provided": "Не предоставлена сокращенная ссылка",
         "cannot_modify_link": "Вы не можете изменить эту ссылку!",
-        "link_details": "Детали ссылки"
+        "link_details": "Детали ссылки",
+        "Clicks": "Клики"
     },
     "pt": {
         "title": "Encurtador de URL em PHP | CodingNepal",
@@ -495,7 +500,8 @@
         "among_most_clicked_links": "entre os links mais clicados",
         "No_shorten_url_provided": "Nenhuma URL encurtada fornecida",
         "cannot_modify_link": "Você não pode modificar este link!",
-        "link_details": "Detalhes do link"
+        "link_details": "Detalhes do link",
+        "Clicks": "Cliques"
     },
     "it": {
         "title": "Accorciatore URL in PHP | CodingNepal",
@@ -578,7 +584,8 @@
         "among_most_clicked_links": "tra i link più cliccati",
         "No_shorten_url_provided": "Nessuna URL abbreviata fornita",
         "cannot_modify_link": "Non puoi modificare questo link!",
-        "link_details": "Dettagli del link"
+        "link_details": "Dettagli del link",
+        "Clicks": "Clic"
     },
     "el": {
         "title": "Σύντομος σύνδεσμος URL σε PHP | CodingNepal",
@@ -828,7 +835,8 @@
         "among_most_clicked_links": "在最常点击的链接中",
         "No_shorten_url_provided": "未提供缩短的URL",
         "cannot_modify_link": "您无法修改此链接!",
-        "link_details": "链接详情"
+        "link_details": "链接详情",
+        "Clicks": "点击次数"
     },
     "hi": {
         "title": "PHP में URL संक्षिप्तकर्ता | CodingNepal",
@@ -1667,6 +1675,7 @@
         "among_most_clicked_links": "सबैभन्दा बढी क्लिक गरिएका लिंकहरू बीचमा",
         "No_shorten_url_provided": "कुनै छोटो URL प्रदान गरिएको छैन",
         "cannot_modify_link": "तपाईं यो लिंक परिवर्तन गर्न सक्नुहुन्न!",
-        "link_details": "लिङ्क विवरण"
+        "link_details": "लिङ्क विवरण",
+        "Clicks": "क्लिकहरू"
     }
 }
