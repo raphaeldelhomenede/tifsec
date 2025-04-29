@@ -1,6 +1,6 @@
 {
   "zu.ct.ws/php/delete.php": "delete.php?id={id}{lang}",
   "zu.ct.ws/php/edit.php": "edit.php?id={id}{lang}",
-  "classement.php": "classement.php?{lang}",
+  "classement.php": "classement.php{lang}",
   "default": "data-base.php{lang}"
 }
