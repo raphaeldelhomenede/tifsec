@@ -167,7 +167,9 @@
         "cannot_modify_link": "Vous ne pouvez pas modifier ce lien!",
         "link_details": "Détail du lien",
         "Clicks": "Clics",
-        "Rank": "Rang"
+        "Rank": "Rang",
+        "most_clicked_link": "Ce lien est le plus cliqué",
+        "clicks_difference_with_above": "Ce lien a X clics de moins que le lien précédent"
     },
     "es": {
         "title": "Acortador de URL en PHP | CodingNepal",
