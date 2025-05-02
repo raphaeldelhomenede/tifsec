@@ -82,7 +82,9 @@
         "cannot_modify_link": "You cannot modify this link!",
         "link_details": "Link details",
         "Clicks": "Clicks",
-        "Rank": "Rank"
+        "Rank": "Rank",
+        "most_clicked_link": "This link is the most clicked",
+        "clicks_difference_with_above": "Still {x} clicks to catch up with the link above in the ranking"    
     },
     "fr": {
         "title": "Raccourcisseur d'URL en PHP | CodingNepal",
@@ -254,7 +256,9 @@
         "cannot_modify_link": "No puedes modificar este enlace!",
         "link_details": "Detalles del enlace",
         "Clicks": "Clics",
-        "Rank": "Rango"
+        "Rank": "Rango",
+        "most_clicked_link": "Este enlace es el más clickeado",
+        "clicks_difference_with_above": "Aún faltan {x} clics para alcanzar el enlace superior en el ranking"
     },
     "de": {
         "title": "URL-Verkürzer in PHP | CodingNepal",
@@ -339,7 +343,9 @@
         "cannot_modify_link": "Sie können diesen Link nicht bearbeiten!",
         "link_details": "Linkdetails",
         "Clicks": "Kliks",
-        "Rank": "Rang"
+        "Rank": "Rang",
+        "most_clicked_link": "Dieser Link ist der meistgeklickte",
+        "clicks_difference_with_above": "Noch {x} Klicks, um den Link oben im Ranking einzuholen"
     },
     "ru": {
         "title": "Сокращатель URL на PHP | CodingNepal",
@@ -424,7 +430,9 @@
         "cannot_modify_link": "Вы не можете изменить эту ссылку!",
         "link_details": "Детали ссылки",
         "Clicks": "Клики",
-        "Rank": "Ранг"
+        "Rank": "Ранг",
+        "most_clicked_link": "Эта ссылка самая кликаемая",
+        "clicks_difference_with_above": "Еще {x} кликов, чтобы догнать ссылку выше в рейтинге"
     },
     "pt": {
         "title": "Encurtador de URL em PHP | CodingNepal",
@@ -509,7 +517,9 @@
         "cannot_modify_link": "Você não pode modificar este link!",
         "link_details": "Detalhes do link",
         "Clicks": "Cliques",
-        "Rank": "Classificação"
+        "Rank": "Classificação",
+        "most_clicked_link": "Este link é o mais clicado",
+        "clicks_difference_with_above": "Ainda faltam {x} cliques para alcançar o link acima no ranking"
     },
     "it": {
         "title": "Accorciatore URL in PHP | CodingNepal",
@@ -594,7 +604,9 @@
         "cannot_modify_link": "Non puoi modificare questo link!",
         "link_details": "Dettagli del link",
         "Clicks": "Clic",
-        "Rank": "Grado"
+        "Rank": "Grado",
+        "most_clicked_link": "Questo link è il più cliccato",
+        "clicks_difference_with_above": "Ancora {x} clic per raggiungere il link sopra nella classifica"
     },
     "el": {
         "title": "Σύντομος σύνδεσμος URL σε PHP | CodingNepal",
@@ -679,7 +691,9 @@
         "cannot_modify_link": "Δεν μπορείτε να τροποποιήσετε αυτόν τον σύνδεσμο!",
         "link_details": "Λεπτομέρειες συνδέσμου",
         "Clicks": "Κλικ",
-        "Rank": "Βαθμός"
+        "Rank": "Βαθμός",
+        "most_clicked_link": "Αυτός ο σύνδεσμος είναι ο πιο κλικαρισμένος",
+        "clicks_difference_with_above": "Ακόμα {x} κλικ για να φτάσετε τον σύνδεσμο παραπάνω στην κατάταξη"
     },
     "tr": {
         "title": "PHP'de URL Kısaltıcı | CodingNepal",
@@ -765,7 +779,9 @@
         "cannot_modify_link": "Bu bağlantıyı değiştiremezsiniz!",
         "link_details": "Bağlantı detayları",
         "Clicks": "Tıklamalar",
-        "Rank": "Sıralama"
+        "Rank": "Sıralama",
+        "most_clicked_link": "Bu link en çok tıklanan",
+        "clicks_difference_with_above": "Yukarıdaki linki yakalamak için {x} tıklama daha"
     },
     "zh": {
         "title": "PHP网址缩短工具 | CodingNepal",
@@ -850,7 +866,9 @@
         "cannot_modify_link": "您无法修改此链接!",
         "link_details": "链接详情",
         "Clicks": "点击次数",
-        "Rank": "排名"
+        "Rank": "排名",
+        "most_clicked_link": "这个链接是最被点击的",
+        "clicks_difference_with_above": "还差 {x} 次点击，才能赶上排名前面的链接"
     },
     "hi": {
         "title": "PHP में URL संक्षिप्तकर्ता | CodingNepal",
@@ -936,7 +954,9 @@
         "cannot_modify_link": "आप इस लिंक को संशोधित नहीं कर सकते!",
         "link_details": "लिंक विवरण",
         "Clicks": "क्लिक्स",
-        "Rank": "रैंक"
+        "Rank": "रैंक",
+        "most_clicked_link": "यह लिंक सबसे अधिक क्लिक किया गया है",
+        "clicks_difference_with_above": "उपरोक्त लिंक से मेल खाने के लिए अभी {x} क्लिक बाकी हैं"
     },
     "bn": {
         "title": "PHP এ URL সংক্ষিপ্তকারী | CodingNepal",
@@ -1022,7 +1042,9 @@
         "cannot_modify_link": "আপনি এই লিঙ্কটি পরিবর্তন করতে পারবেন না!",
         "link_details": "লিংক বিবরণ",
         "Clicks": "ক্লিকস",
-        "Rank": "র্যাঙ্ক"
+        "Rank": "র্যাঙ্ক",
+        "most_clicked_link": "এই লিঙ্কটি সবচেয়ে বেশি ক্লিক হয়েছে",
+        "clicks_difference_with_above": "উপরের লিঙ্কটিকে ছাড়িয়ে যেতে এখনও {x} ক্লিক বাকি"
     },
     "ur": {
         "title": "PHP میں URL مختصر کرنے والا | CodingNepal",
@@ -1108,7 +1130,9 @@
         "cannot_modify_link": "آپ اس لنک کو تبدیل نہیں کر سکتے!",
         "link_details": "لنک کی تفصیلات",
         "Clicks": "کلکس",
-        "Rank": "رینک"
+        "Rank": "رینک",
+        "most_clicked_link": "یہ لنک سب سے زیادہ کلک کیا گیا ہے",
+        "clicks_difference_with_above": "اوپر والے لنک کو پکڑنے کے لیے ابھی {x} کلکس کی ضرورت ہے"
     },
     "pl": {
         "title": "Skracacz URL w PHP | CodingNepal",
@@ -1194,7 +1218,9 @@
         "cannot_modify_link": "Nie możesz edytować tego linku!",
         "link_details": "Szczegóły linku",
         "Clicks": "Kliknięcia",
-        "Rank": "Ranga"
+        "Rank": "Ranga",
+        "most_clicked_link": "Ten link jest najczęściej klikany",
+        "clicks_difference_with_above": "Zostało jeszcze {x} kliknięć, aby dogonić link wyżej w rankingu"
     },
     "ro": {
         "title": "Scurtător URL în PHP | CodingNepal",
@@ -1280,7 +1306,9 @@
         "cannot_modify_link": "Nu poți modifica acest link",
         "link_details": "Detalii link",
         "Clicks": "Clicuri",
-        "Rank": "Rang"
+        "Rank": "Rang",
+        "most_clicked_link": "Acest link este cel mai clicat",
+        "clicks_difference_with_above": "Mai sunt {x} clicuri pentru a ajunge linkul de sus din clasament"
     },
     "jv": {
         "title": "URL Singkat ing PHP | CodingNepal",
@@ -1366,7 +1394,9 @@
         "cannot_modify_link": "Sampeyan ora bisa ngowahi pranala iki!",
         "link_details": "Rincian tautan",
         "Clicks": "Kliks",
-        "Rank": "Peringkat"
+        "Rank": "Peringkat",
+        "most_clicked_link": "Link iki paling asring diklik",
+        "clicks_difference_with_above": "Isih butuh {x} klik kanggo nguber link ndhuwur ing peringkat"
     },
     "nl": {
         "title": "URL-verkorter in PHP | CodingNepal",
@@ -1452,7 +1482,9 @@
         "cannot_modify_link": "Je kunt deze link niet wijzigen!",
         "link_details": "Linkdetails",
         "Clicks": "Klikken",
-        "Rank": "Rang"
+        "Rank": "Rang",
+        "most_clicked_link": "Deze link is het vaakst geklikt",
+        "clicks_difference_with_above": "Nog {x} klikken om de link hierboven in de ranglijst in te halen"
     },
     "ja": {
         "title": "PHPのURL短縮ツール | CodingNepal",
@@ -1538,7 +1570,9 @@
         "cannot_modify_link": "このリンクを変更することはできません!",
         "link_details": "リンクの詳細",
         "Clicks": "クリック数",
-        "Rank": "ランク"
+        "Rank": "ランク",
+        "most_clicked_link": "このリンクは最もクリックされたリンクです",
+        "clicks_difference_with_above": "上のリンクを追い越すにはあと{x}回クリックする必要があります"
     },
     "ar": {
         "title": "تقليل الروابط في PHP | CodingNepal",
@@ -1624,7 +1658,9 @@
         "cannot_modify_link": "لا يمكنك تعديل هذا الرابط!",
         "link_details": "تفاصيل الرابط",
         "Clicks": "النقرات",
-        "Rank": "الترتيب"
+        "Rank": "الترتيب",
+        "most_clicked_link": "هذا الرابط هو الأكثر نقراً",
+        "clicks_difference_with_above": "لا يزال هناك {x} نقرة للوصول إلى الرابط الأعلى في الترتيب"
     },
     "np": {
         "title": "PHP मा URL छोट्याउने | CodingNepal",
@@ -1709,6 +1745,8 @@
         "cannot_modify_link": "तपाईं यो लिंक परिवर्तन गर्न सक्नुहुन्न!",
         "link_details": "लिङ्क विवरण",
         "Clicks": "क्लिकहरू",
-        "Rank": "श्रेणी"
+        "Rank": "श्रेणी",
+        "most_clicked_link": "यो लिंक सबैभन्दा बढी क्लिक गरिएको हो",
+        "clicks_difference_with_above": "सार्वोच्च लिंकलाई समेट्नको लागि अझै {x} क्लिक बाकी छन्"
     }
 }
