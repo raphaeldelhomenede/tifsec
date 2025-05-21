@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Extraction d'images JPEG du PDF</title>
+  <meta charset="UTF-8" />
+  <title>Extraction d'images PDF en web</title>
   <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
   <style>
     body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
-    .image-container img { margin: 10px 0; max-width: 100%; border: 1px solid #ccc; background: #fff; padding: 10px; }
+    .image-container img { margin: 10px 0; max-width: 300px; border: 1px solid #ccc; background: #fff; padding: 10px; }
+    button { margin: 10px 0; }
   </style>
 </head>
 <body>
-  <h1>Extraction d'images JPEG du PDF</h1>
-  <input type="file" id="pdf-upload" accept="application/pdf">
+  <h1>Extraction d'images intégrées PDF (JPEG uniquement)</h1>
+  <input type="file" id="pdf-upload" accept="application/pdf" />
+  <div id="output-name"></div>
   <div class="image-container" id="image-container"></div>
 
   <script>
     const { PDFDocument, PDFName, PDFRawStream } = PDFLib;
 
+    // Générer un nom aléatoire de 11 caractères parmi ces 6, comme en Python
+    function genRandomName() {
+      const chars = ["A", "Z", "a", "z", "0", "9"];
+      let result = "";
+      for(let i = 0; i < 11; i++) {
+        result += chars[Math.floor(Math.random() * chars.length)];
+      }
+      return result;
+    }
+
     document.getElementById('pdf-upload').addEventListener('change', async (event) => {
       const file = event.target.files[0];
       if (!file) return;
 
+      const outputName = genRandomName();
+      document.getElementById('output-name').textContent = `Nom du dossier simulé : ${outputName}`;
+
       const arrayBuffer = await file.arrayBuffer();
       const pdfDoc = await PDFDocument.load(arrayBuffer);
+
       const imageContainer = document.getElementById('image-container');
       imageContainer.innerHTML = '';
 
+      let imageCount = 0;
+
       for (const page of pdfDoc.getPages()) {
-        const dict = page.node;
-        const resources = dict.get(PDFName.of('Resources'));
+        const resources = page.node.Resources();
         if (!resources) continue;
 
         const xObjects = resources.lookup(PDFName.of('XObject'));
         if (!xObjects) continue;
 
-        const xObjectNames = xObjects.keys();
-        for (const name of xObjectNames) {
+        for (const name of xObjects.keys()) {
           const xObject = xObjects.get(name);
           const xObjectLookup = xObjects.lookup(name);
 
@@ -44,15 +60,32 @@
             const filter = xObjectLookup.dict.get(PDFName.of('Filter'));
 
             if (subtype && subtype.name === 'Image' && filter && filter.name === 'DCTDecode') {
+              // Extraction JPEG
               const imageBytes = xObjectLookup.contents;
               const blob = new Blob([imageBytes], { type: 'image/jpeg' });
               const url = URL.createObjectURL(blob);
+
               const img = document.createElement('img');
               img.src = url;
+              img.alt = `Image ${imageCount+1}`;
               imageContainer.appendChild(img);
+
+              // Ajouter un lien de téléchargement
+              const link = document.createElement('a');
+              link.href = url;
+              link.download = `${outputName}_img${imageCount+1}.jpg`;
+              link.textContent = `Télécharger image ${imageCount+1}`;
+              link.style.display = 'block';
+              imageContainer.appendChild(link);
+
+              imageCount++;
             }
           }
         }
+      }
+
+      if (imageCount === 0) {
+        imageContainer.textContent = "Aucune image JPEG intégrée trouvée dans ce PDF.";
       }
     });
   </script>
