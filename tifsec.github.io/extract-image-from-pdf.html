@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Extraction d'images PDF</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+  <title>Extraction des images intégrées du PDF</title>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
   <style>
     body {
       font-family: sans-serif;
+      background-color: #f4f4f4;
       padding: 20px;
-      background: #f9f9f9;
     }
     input[type="file"] {
       margin-bottom: 20px;
@@ -17,38 +17,50 @@
     .image-container img {
       max-width: 100%;
       margin: 10px 0;
+      border: 1px solid #ccc;
+      background: #fff;
+      padding: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>Extraction d'images d'un fichier PDF</h1>
-  <input type="file" id="file-input" accept="application/pdf">
-  <div class="image-container" id="image-container"></div>
+  <h1>Extraction des images intégrées dans un PDF</h1>
+  <input type="file" id="pdf-upload" accept="application/pdf">
+  <div id="image-container" class="image-container"></div>
 
   <script>
-    const fileInput = document.getElementById('file-input');
-    const imageContainer = document.getElementById('image-container');
-
-    fileInput.addEventListener('change', async (e) => {
+    document.getElementById('pdf-upload').addEventListener('change', async (e) => {
       const file = e.target.files[0];
       if (!file) return;
 
       const arrayBuffer = await file.arrayBuffer();
-      const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+      const pdfDoc = await PDFLib.PDFDocument.load(arrayBuffer);
+      const imageContainer = document.getElementById('image-container');
+      imageContainer.innerHTML = '';
 
-      for (let i = 1; i <= pdf.numPages; i++) {
-        const page = await pdf.getPage(i);
-        const operatorList = await page.getOperatorList();
-        const viewport = page.getViewport({ scale: 2 });
-        const canvas = document.createElement('canvas');
-        const context = canvas.getContext('2d');
-        canvas.width = viewport.width;
-        canvas.height = viewport.height;
+      for (const page of pdfDoc.getPages()) {
+        const xObjects = page.node.Resources().lookup(PDFLib.PDFName.of('XObject'));
+        if (!xObjects) continue;
 
-        await page.render({ canvasContext: context, viewport }).promise;
-        const img = document.createElement('img');
-        img.src = canvas.toDataURL();
-        imageContainer.appendChild(img);
+        const xObjectNames = xObjects.keys();
+
+        for (const name of xObjectNames) {
+          const xObject = xObjects.get(name);
+          const subtype = xObject.get(PDFLib.PDFName.of('Subtype'));
+
+          if (subtype && subtype.name === 'Image') {
+            const imageData = xObject.get(PDFLib.PDFName.of('Filter'))?.name === 'DCTDecode'
+              ? xObject.get(PDFLib.PDFName.of('Data')).content
+              : null;
+
+            if (imageData) {
+              const blob = new Blob([imageData], { type: 'image/jpeg' });
+              const img = document.createElement('img');
+              img.src = URL.createObjectURL(blob);
+              imageContainer.appendChild(img);
+            }
+          }
+        }
       }
     });
   </script>
