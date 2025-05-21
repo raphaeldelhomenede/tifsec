@@ -2,61 +2,53 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Extraction des images intégrées du PDF</title>
+  <title>Extraction d'images JPEG du PDF</title>
   <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
   <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f4f4f4;
-      padding: 20px;
-    }
-    input[type="file"] {
-      margin-bottom: 20px;
-    }
-    .image-container img {
-      max-width: 100%;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      background: #fff;
-      padding: 10px;
-    }
+    body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+    .image-container img { margin: 10px 0; max-width: 100%; border: 1px solid #ccc; background: #fff; padding: 10px; }
   </style>
 </head>
 <body>
-  <h1>Extraction des images intégrées dans un PDF</h1>
+  <h1>Extraction d'images JPEG du PDF</h1>
   <input type="file" id="pdf-upload" accept="application/pdf">
-  <div id="image-container" class="image-container"></div>
+  <div class="image-container" id="image-container"></div>
 
   <script>
-    document.getElementById('pdf-upload').addEventListener('change', async (e) => {
-      const file = e.target.files[0];
+    const { PDFDocument, PDFName, PDFRawStream } = PDFLib;
+
+    document.getElementById('pdf-upload').addEventListener('change', async (event) => {
+      const file = event.target.files[0];
       if (!file) return;
 
       const arrayBuffer = await file.arrayBuffer();
-      const pdfDoc = await PDFLib.PDFDocument.load(arrayBuffer);
+      const pdfDoc = await PDFDocument.load(arrayBuffer);
       const imageContainer = document.getElementById('image-container');
       imageContainer.innerHTML = '';
 
       for (const page of pdfDoc.getPages()) {
-        const xObjects = page.node.Resources().lookup(PDFLib.PDFName.of('XObject'));
+        const dict = page.node;
+        const resources = dict.get(PDFName.of('Resources'));
+        if (!resources) continue;
+
+        const xObjects = resources.lookup(PDFName.of('XObject'));
         if (!xObjects) continue;
 
         const xObjectNames = xObjects.keys();
-
         for (const name of xObjectNames) {
           const xObject = xObjects.get(name);
-          const subtype = xObject.get(PDFLib.PDFName.of('Subtype'));
+          const xObjectLookup = xObjects.lookup(name);
 
-          if (subtype && subtype.name === 'Image') {
-            const imageData = xObject.get(PDFLib.PDFName.of('Filter'))?.name === 'DCTDecode'
-              ? xObject.get(PDFLib.PDFName.of('Data')).content
-              : null;
+          if (xObjectLookup instanceof PDFRawStream) {
+            const subtype = xObjectLookup.dict.get(PDFName.of('Subtype'));
+            const filter = xObjectLookup.dict.get(PDFName.of('Filter'));
 
-            if (imageData) {
-              const blob = new Blob([imageData], { type: 'image/jpeg' });
+            if (subtype && subtype.name === 'Image' && filter && filter.name === 'DCTDecode') {
+              const imageBytes = xObjectLookup.contents;
+              const blob = new Blob([imageBytes], { type: 'image/jpeg' });
+              const url = URL.createObjectURL(blob);
               const img = document.createElement('img');
-              img.src = URL.createObjectURL(blob);
+              img.src = url;
               imageContainer.appendChild(img);
             }
           }
