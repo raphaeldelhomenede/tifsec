@@ -60,7 +60,7 @@
     },
     {
       "nom": "NSI",
-      "lien": "https://tifsec-nsi.rf.gd/TNSI/?session=Anciennes Versions",
+      "lien": "https://raphaeldelhomenede.github.io/tifsec/AnciensCours",
       "image": "https://electricite.html-5.me/img/732212.ico"
     },
     {
@@ -130,7 +130,7 @@
     },
     {
       "nom": "NSI Nouvelles Versions",
-      "lien": "http://tifsec-nsi.rf.gd/TNSI/?session=Nouvelles Versions",
+      "lien": "https://raphaeldelhomenede.github.io/tifsec/AnciensCours/nouvelles-versions",
       "image": "https://electricite.html-5.me/img/732212.ico"
     }
   ]
