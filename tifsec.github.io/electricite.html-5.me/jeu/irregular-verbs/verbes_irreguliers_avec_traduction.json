@@ -811,6 +811,12 @@
       "Translation-fr": "lancer"
     },
     {
+      "Base": "undergo",
+      "Past-simple": "underwent",
+      "Past-Participle": "undergone",
+      "Translation-fr": "subir"
+    },
+    {
       "Base": "understand",
       "Past-simple": "understood",
       "Past-Participle": "understood",
@@ -957,8 +963,8 @@
     {
       "Base": "tread",
       "Past-simple": "trod",
-      "Past-Participle": "trodden",
-      "Translation-fr": "fouler, marcher sur"
+      "Past-Participle": ["trodden", "trod"],
+      "Translation-fr": "fouler, marcher sur, piétiner"
     },
     {
       "Base": "wring",
