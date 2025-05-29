@@ -1,0 +1,14 @@
+{
+  "situations": [
+    "genre t'arrives à la boulangerie",
+    "genre t'arrives à la pharmacie",
+    "genre t'arrives chez le docteur",
+    "genre t'arrives à la librairie",
+    "genre t'arrives au supermarché",
+    "genre t'arrives dans un pub",
+    "genre t'arrives à l'aéroport",
+    "genre t'arrives à la poste",
+    "genre t'arrives au commissariat",
+    "genre t'arrives chez le vétérinaire"
+  ]
+}
