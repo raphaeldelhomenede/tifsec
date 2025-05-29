@@ -10,7 +10,7 @@
       "Base": "awake",
       "Past-simple": "awoke",
       "Past-Participle": "awoken",
-      "Translation-fr": "s’éveiller / être éveillé"
+      "Translation-fr": "s’éveiller, être éveillé"
     },
     {
       "Base": "be",
@@ -22,7 +22,7 @@
       "Base": "bear",
       "Past-simple": "bore",
       "Past-Participle": "born",
-      "Translation-fr": "porter / naître"
+      "Translation-fr": "porter, naître"
     },
     {
       "Base": "beat",
@@ -110,8 +110,8 @@
     },
     {
       "Base": "burn",
-      "Past-simple": "burnt/burned",
-      "Past-Participle": "burnt/burned",
+      "Past-simple": ["burnt", "burned"],
+      "Past-Participle": ["burnt", "burned"],
       "Translation-fr": "brûler"
     },
     {
@@ -178,7 +178,7 @@
       "Base": "deal",
       "Past-simple": "dealt",
       "Past-Participle": "dealt",
-      "Translation-fr": "distribuer / traiter"
+      "Translation-fr": "distribuer, traiter"
     },
     {
       "Base": "dig",
@@ -196,12 +196,12 @@
       "Base": "draw",
       "Past-simple": "drew",
       "Past-Participle": "drawn",
-      "Translation-fr": "dessiner / tirer"
+      "Translation-fr": "dessiner, tirer"
     },
     {
       "Base": "dream",
-      "Past-simple": "dreamt/dreamed",
-      "Past-Participle": "dreamt/dreamed",
+      "Past-simple": ["dreamt", "dreamed"],
+      "Past-Participle": ["dreamt", "dreamed"],
       "Translation-fr": "rêver"
     },
     {
@@ -310,13 +310,13 @@
       "Base": "grow",
       "Past-simple": "grew",
       "Past-Participle": "grown",
-      "Translation-fr": "grandir / pousser"
+      "Translation-fr": "grandir, pousser"
     },
     {
       "Base": "hang",
       "Past-simple": "hung",
       "Past-Participle": "hung",
-      "Translation-fr": "pendre / suspendre"
+      "Translation-fr": "pendre, suspendre"
     },
     {
       "Base": "have",
@@ -340,7 +340,7 @@
       "Base": "hit",
       "Past-simple": "hit",
       "Past-Participle": "hit",
-      "Translation-fr": "frapper"
+      "Translation-fr": "frapper, taper"
     },
     {
       "Base": "hold",
@@ -370,7 +370,7 @@
       "Base": "know",
       "Past-simple": "knew",
       "Past-Participle": "known",
-      "Translation-fr": "savoir / connaître"
+      "Translation-fr": "savoir, connaître"
     },
     {
       "Base": "lay",
@@ -386,14 +386,14 @@
     },
     {
       "Base": "lean",
-      "Past-simple": "leant/leaned",
-      "Past-Participle": "leant/leaned",
-      "Translation-fr": "se pencher / s'appuyer"
+      "Past-simple": ["leant", "leaned"],
+      "Past-Participle": ["leant", "leaned"],
+      "Translation-fr": "se pencher, s'appuyer"
     },
     {
       "Base": "learn",
-      "Past-simple": "learnt/learned",
-      "Past-Participle": "learnt/learned",
+      "Past-simple": ["learnt", "learned"],
+      "Past-Participle": ["learnt","learned"],
       "Translation-fr": "apprendre"
     },
     {
@@ -412,7 +412,7 @@
       "Base": "lie",
       "Past-simple": "lay",
       "Past-Participle": "lain",
-      "Translation-fr": "être couché / être allongé"
+      "Translation-fr": "être couché, être allongé"
     },
     {
       "Base": "lie",
@@ -422,8 +422,8 @@
     },
     {
       "Base": "light",
-      "Past-simple": "lit/lighted",
-      "Past-Participle": "lit/lighted",
+      "Past-simple": ["lit", "lighted"],
+      "Past-Participle": ["lit", "lighted"],
       "Translation-fr": "allumer"
     },
     {
@@ -436,7 +436,7 @@
       "Base": "make",
       "Past-simple": "made",
       "Past-Participle": "made",
-      "Translation-fr": "fabriquer / faire"
+      "Translation-fr": "fabriquer, faire"
     },
     {
       "Base": "may",
@@ -459,7 +459,7 @@
     {
       "Base": "mow",
       "Past-simple": "mowed",
-      "Past-Participle": "mown/mowed",
+      "Past-Participle": "mown",
       "Translation-fr": "tondre"
     },
     {
@@ -496,7 +496,7 @@
       "Base": "ride",
       "Past-simple": "rode",
       "Past-Participle": "ridden",
-      "Translation-fr": "monter (à cheval / vélo)"
+      "Translation-fr": "monter (à cheval, vélo)"
     },
     {
       "Base": "ring",
@@ -519,7 +519,7 @@
     {
       "Base": "saw",
       "Past-simple": "sawed",
-      "Past-Participle": "sawn/sawed",
+      "Past-Participle": ["sawn", "sawed"],
       "Translation-fr": "scier"
     },
     {
@@ -550,12 +550,12 @@
       "Base": "set",
       "Past-simple": "set",
       "Past-Participle": "set",
-      "Translation-fr": "poser / fixer"
+      "Translation-fr": "poser, fixer"
     },
     {
       "Base": "sew",
       "Past-simple": "sewed",
-      "Past-Participle": "sewn/sewed",
+      "Past-Participle": ["sewn", "sewed"],
       "Translation-fr": "coudre"
     },
     {
@@ -574,7 +574,7 @@
       "Base": "shed",
       "Past-simple": "shed",
       "Past-Participle": "shed",
-      "Translation-fr": "verser / perdre"
+      "Translation-fr": "verser, perdre"
     },
     {
       "Base": "shine",
@@ -645,7 +645,7 @@
     {
       "Base": "sow",
       "Past-simple": "sowed",
-      "Past-Participle": "sown/sowed",
+      "Past-Participle": ["sown", "sowed"],
       "Translation-fr": "semer"
     },
     {
@@ -656,33 +656,51 @@
     },
     {
       "Base": "spell",
-      "Past-simple": "spelt/spelled",
-      "Past-Participle": "spelt/spelled",
+      "Past-simple": ["spelt", "spelled"],
+      "Past-Participle": ["spelt", "spelled"],
       "Translation-fr": "épeler"
     },
     {
       "Base": "spend",
       "Past-simple": "spent",
       "Past-Participle": "spent",
-      "Translation-fr": "dépenser / passer (temps)"
+      "Translation-fr": "dépenser, passer (temps)"
     },
     {
       "Base": "spill",
-      "Past-simple": "spilt/spilled",
-      "Past-Participle": "spilt/spilled",
+      "Past-simple": ["spilt", "spilled"],
+      "Past-Participle": ["spilt", "spilled"],
       "Translation-fr": "renverser"
     },
     {
       "Base": "spit",
-      "Past-simple": "spat",
-      "Past-Participle": "spat",
+      "Past-simple": ["spat", "spit"],
+      "Past-Participle": ["spat", "spit"],
       "Translation-fr": "cracher"
+    },
+    {
+      "Base": "split",
+      "Past-simple": "split",
+      "Past-Participle": "split",
+      "Translation-fr": "séparer, diviser, scinder, fendre, partager"
+    },
+    {
+      "Base": "spoil",
+      "Past-simple": ["spoiled", "spoilt"],
+      "Past-Participle": ["spoiled", "spoilt"],
+      "Translation-fr": "gâcher, abîmer, pourrir, ruiner, choyer excessivement"
     },
     {
       "Base": "spread",
       "Past-simple": "spread",
       "Past-Participle": "spread",
       "Translation-fr": "étaler"
+    },
+    {
+      "Base": "spring",
+      "Past-simple": ["sprang", "sprung"],
+      "Past-Participle": ["sprang", "sprung"],
+      "Translation-fr": "sauter"
     },
     {
       "Base": "stand",
@@ -718,7 +736,7 @@
       "Base": "strike",
       "Past-simple": "struck",
       "Past-Participle": "struck",
-      "Translation-fr": "frapper"
+      "Translation-fr": "frapper, attaquer"
     },
     {
       "Base": "strive",
@@ -741,7 +759,7 @@
     {
       "Base": "swell",
       "Past-simple": "swelled",
-      "Past-Participle": "swollen/swelled",
+      "Past-Participle": ["swollen", "swelled"],
       "Translation-fr": "enfler"
     },
     {
@@ -820,7 +838,7 @@
       "Base": "will",
       "Past-simple": "would",
       "Past-Participle": "",
-      "Translation-fr": "vouloir (au futur) / volonté"
+      "Translation-fr": "vouloir (au futur), volonté"
     },
     {
       "Base": "win",
@@ -844,7 +862,7 @@
       "Base": "abide",
       "Past-simple": "abode",
       "Past-Participle": "abode",
-      "Translation-fr": "demeurer / supporter"
+      "Translation-fr": "demeurer, supporter"
     },
     {
       "Base": "befall",
@@ -904,19 +922,19 @@
       "Base": "slay",
       "Past-simple": "slew",
       "Past-Participle": "slain",
-      "Translation-fr": "tuer (littéraire)"
+      "Translation-fr": "tuer, massacrer"
     },
     {
       "Base": "smite",
       "Past-simple": "smote",
       "Past-Participle": "smitten",
-      "Translation-fr": "frapper"
+      "Translation-fr": "frapper violemment"
     },
     {
       "Base": "spin",
-      "Past-simple": "span",
+      "Past-simple": ["spun", "span"],
       "Past-Participle": "spun",
-      "Translation-fr": "filer (laine)"
+      "Translation-fr": "tourner, tournoyer"
     },
     {
       "Base": "strew",
@@ -940,7 +958,7 @@
       "Base": "tread",
       "Past-simple": "trod",
       "Past-Participle": "trodden",
-      "Translation-fr": "fouler / marcher sur"
+      "Translation-fr": "fouler, marcher sur"
     },
     {
       "Base": "wring",
@@ -971,6 +989,24 @@
       "Past-simple": "strode",
       "Past-Participle": "stridden",
       "Translation-fr": "marcher à grands pas"
+    },
+    {
+      "Base": "dwell",
+      "Past-simple": ["dwelt", "dwelled"],
+      "Past-Participle": ["dwelt", "dwelled"],
+      "Translation-fr": "habiter, demeurer"
+    },
+    {
+      "Base": "overcome",
+      "Past-simple": "overcame",
+      "Past-Participle": "overcome",
+      "Translation-fr": "surmonter"
+    },
+    {
+      "Base": "strip",
+      "Past-simple": ["stript", "stripped "],
+      "Past-Participle": ["stript", "stripped "],
+      "Translation-fr": "enlever, retirer, dépouiller"
     }
   ]
 }
