@@ -940,7 +940,7 @@
       "Base": "tread",
       "Past-simple": "trod",
       "Past-Participle": "trodden",
-      "Translation-fr": "fouler"
+      "Translation-fr": "fouler / marcher sur"
     },
     {
       "Base": "wring",
@@ -953,6 +953,24 @@
       "Past-simple": "wrought",
       "Past-Participle": "wrought",
       "Translation-fr": "infliger"
+    },
+    {
+      "Base": "withhold",
+      "Past-simple": "withheld",
+      "Past-Participle": "withheld",
+      "Translation-fr": "retenir (informations, argent...)"
+    },
+    {
+      "Base": "sling",
+      "Past-simple": "slung",
+      "Past-Participle": "slung",
+      "Translation-fr": "lancer violemment"
+    },
+    {
+      "Base": "stride",
+      "Past-simple": "strode",
+      "Past-Participle": "stridden",
+      "Translation-fr": "marcher à grands pas"
     }
   ]
 }
