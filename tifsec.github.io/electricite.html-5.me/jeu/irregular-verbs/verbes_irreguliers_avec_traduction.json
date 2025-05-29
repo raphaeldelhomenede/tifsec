@@ -441,8 +441,8 @@
     {
       "Base": "may",
       "Past-simple": "might",
-      "Past-Participle": "…",
-      "Translation-fr": ""
+      "Past-Participle": "",
+      "Translation-fr": "pouvoir (possibilité)"
     },
     {
       "Base": "mean",
@@ -465,8 +465,8 @@
     {
       "Base": "must",
       "Past-simple": "had to",
-      "Past-Participle": "…",
-      "Translation-fr": ""
+      "Past-Participle": "",
+      "Translation-fr": "devoir (obligation forte)"
     },
     {
       "Base": "overtake",
@@ -567,8 +567,8 @@
     {
       "Base": "shall",
       "Past-simple": "should",
-      "Past-Participle": "…",
-      "Translation-fr": ""
+      "Past-Participle": "",
+      "Translation-fr": "devoir (suggestion, obligation atténuée)"
     },
     {
       "Base": "shed",
@@ -721,6 +721,12 @@
       "Translation-fr": "frapper"
     },
     {
+      "Base": "strive",
+      "Past-simple": "strove",
+      "Past-Participle": "striven",
+      "Translation-fr": "s'efforcer de"
+    },
+    {
       "Base": "swear",
       "Past-simple": "swore",
       "Past-Participle": "sworn",
@@ -813,8 +819,8 @@
     {
       "Base": "will",
       "Past-simple": "would",
-      "Past-Participle": "…",
-      "Translation-fr": ""
+      "Past-Participle": "",
+      "Translation-fr": "vouloir (au futur) / volonté"
     },
     {
       "Base": "win",
@@ -833,6 +839,120 @@
       "Past-simple": "wrote",
       "Past-Participle": "written",
       "Translation-fr": "écrire"
+    },
+    {
+      "Base": "abide",
+      "Past-simple": "abode",
+      "Past-Participle": "abode",
+      "Translation-fr": "demeurer / supporter"
+    },
+    {
+      "Base": "befall",
+      "Past-simple": "befell",
+      "Past-Participle": "befallen",
+      "Translation-fr": "survenir"
+    },
+    {
+      "Base": "behold",
+      "Past-simple": "beheld",
+      "Past-Participle": "beheld",
+      "Translation-fr": "contempler"
+    },
+    {
+      "Base": "beseech",
+      "Past-simple": "besought",
+      "Past-Participle": "besought",
+      "Translation-fr": "supplier"
+    },
+    {
+      "Base": "betide",
+      "Past-simple": "betid",
+      "Past-Participle": "betid",
+      "Translation-fr": "advenir"
+    },
+    {
+      "Base": "cleave",
+      "Past-simple": "clove",
+      "Past-Participle": "cloven",
+      "Translation-fr": "fendre"
+    },
+    {
+      "Base": "forsake",
+      "Past-simple": "forsook",
+      "Past-Participle": "forsaken",
+      "Translation-fr": "abandonner"
+    },
+    {
+      "Base": "heave",
+      "Past-simple": "hove",
+      "Past-Participle": "hove",
+      "Translation-fr": "soulever avec effort"
+    },
+    {
+      "Base": "hew",
+      "Past-simple": "hewed",
+      "Past-Participle": "hewn",
+      "Translation-fr": "tailler"
+    },
+    {
+      "Base": "rend",
+      "Past-simple": "rent",
+      "Past-Participle": "rent",
+      "Translation-fr": "déchirer violemment"
+    },
+    {
+      "Base": "slay",
+      "Past-simple": "slew",
+      "Past-Participle": "slain",
+      "Translation-fr": "tuer (littéraire)"
+    },
+    {
+      "Base": "smite",
+      "Past-simple": "smote",
+      "Past-Participle": "smitten",
+      "Translation-fr": "frapper"
+    },
+    {
+      "Base": "spin",
+      "Past-simple": "span",
+      "Past-Participle": "spun",
+      "Translation-fr": "filer (laine)"
+    },
+    {
+      "Base": "strew",
+      "Past-simple": "strewed",
+      "Past-Participle": "strewn",
+      "Translation-fr": "parsemer"
+    },
+    {
+      "Base": "string",
+      "Past-simple": "strung",
+      "Past-Participle": "strung",
+      "Translation-fr": "ficeler"
+    },
+    {
+      "Base": "thrive",
+      "Past-simple": "throve",
+      "Past-Participle": "thriven",
+      "Translation-fr": "prospérer"
+    },
+    {
+      "Base": "tread",
+      "Past-simple": "trod",
+      "Past-Participle": "trodden",
+      "Translation-fr": "fouler"
+    },
+    {
+      "Base": "wring",
+      "Past-simple": "wrung",
+      "Past-Participle": "wrung",
+      "Translation-fr": "tordre"
+    },
+    {
+      "Base": "wreak",
+      "Past-simple": "wrought",
+      "Past-Participle": "wrought",
+      "Translation-fr": "infliger"
     }
   ]
 }
