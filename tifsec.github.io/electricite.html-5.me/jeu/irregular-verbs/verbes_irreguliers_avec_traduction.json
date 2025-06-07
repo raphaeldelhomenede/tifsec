@@ -322,7 +322,7 @@
       "Base": "fly",
       "Past-simple": "flew",
       "Past-Participle": "flown",
-      "Translation-fr": "voler"
+      "Translation-fr": "voler (airs)"
     },
     {
       "Base": "forbid",
@@ -832,7 +832,7 @@
       "Base": "steal",
       "Past-simple": "stole",
       "Past-Participle": "stolen",
-      "Translation-fr": "voler"
+      "Translation-fr": "voler, dérober"
     },
     {
       "Base": "stick",
