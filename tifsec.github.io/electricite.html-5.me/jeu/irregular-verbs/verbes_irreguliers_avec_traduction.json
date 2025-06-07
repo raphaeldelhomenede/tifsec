@@ -1,6 +1,18 @@
 {
   "verbs": [
     {
+      "Base": "abide",
+      "Past-simple": ["abided ", "abode"],
+      "Past-Participle": "abided",
+      "Translation-fr": "demeurer, supporter"
+    },
+    {
+      "Base": "alight",
+      "Past-simple": ["alighted ", "alit "],
+      "Past-Participle": ["alighted ", "alit "],
+      "Translation-fr": "descendre"
+    },
+    {
       "Base": "arise",
       "Past-simple": "arose",
       "Past-Participle": "arisen",
@@ -8,9 +20,21 @@
     },
     {
       "Base": "awake",
-      "Past-simple": "awoke",
-      "Past-Participle": "awoken",
+      "Past-simple": ["awakened", "awoke"],
+      "Past-Participle": ["awakened", "awoken"],
       "Translation-fr": "s’éveiller, être éveillé"
+    },
+    {
+      "Base": "backbite",
+      "Past-simple": "backbit",
+      "Past-Participle": "backbitten",
+      "Translation-fr": "médire, dénigrer, critiquer"
+    },
+    {
+      "Base": "backslide",
+      "Past-simple": "backslid",
+      "Past-Participle": ["backslidden", "backslid"],
+      "Translation-fr": "rechuter"
     },
     {
       "Base": "be",
@@ -37,10 +61,28 @@
       "Translation-fr": "devenir"
     },
     {
+      "Base": "befall",
+      "Past-simple": "befell",
+      "Past-Participle": "befallen",
+      "Translation-fr": "survenir"
+    },
+    {
+      "Base": "beget",
+      "Past-simple": ["begat", "begot"],
+      "Past-Participle": "begotten",
+      "Translation-fr": "engendrer, apporter, causer"
+    },
+    {
       "Base": "begin",
       "Past-simple": "began",
       "Past-Participle": "begun",
       "Translation-fr": "commencer"
+    },
+    {
+      "Base": "behold",
+      "Past-simple": "beheld",
+      "Past-Participle": "beheld",
+      "Translation-fr": "contempler"
     },
     {
       "Base": "bend",
@@ -49,10 +91,22 @@
       "Translation-fr": "plier"
     },
     {
+      "Base": "beseech",
+      "Past-simple": "besought",
+      "Past-Participle": "besought",
+      "Translation-fr": "supplier"
+    },
+    {
       "Base": "bet",
       "Past-simple": "bet",
       "Past-Participle": "bet",
       "Translation-fr": "parier"
+    },
+    {
+      "Base": "betide",
+      "Past-simple": "betid",
+      "Past-Participle": "betid",
+      "Translation-fr": "advenir"
     },
     {
       "Base": "bind",
@@ -145,6 +199,12 @@
       "Translation-fr": "choisir"
     },
     {
+      "Base": "cleave",
+      "Past-simple": "clove",
+      "Past-Participle": "cloven",
+      "Translation-fr": "fendre"
+    },
+    {
       "Base": "cling",
       "Past-simple": "clung",
       "Past-Participle": "clung",
@@ -217,6 +277,12 @@
       "Translation-fr": "conduire"
     },
     {
+      "Base": "dwell",
+      "Past-simple": ["dwelt", "dwelled"],
+      "Past-Participle": ["dwelt", "dwelled"],
+      "Translation-fr": "habiter, demeurer"
+    },
+    {
       "Base": "eat",
       "Past-simple": "ate",
       "Past-Participle": "eaten",
@@ -277,6 +343,12 @@
       "Translation-fr": "pardonner"
     },
     {
+      "Base": "forsake",
+      "Past-simple": "forsook",
+      "Past-Participle": "forsaken",
+      "Translation-fr": "abandonner"
+    },
+    {
       "Base": "freeze",
       "Past-simple": "froze",
       "Past-Participle": "frozen",
@@ -329,6 +401,18 @@
       "Past-simple": "heard",
       "Past-Participle": "heard",
       "Translation-fr": "entendre"
+    },
+    {
+      "Base": "heave",
+      "Past-simple": "hove",
+      "Past-Participle": "hove",
+      "Translation-fr": "soulever avec effort"
+    },
+    {
+      "Base": "hew",
+      "Past-simple": "hewed",
+      "Past-Participle": "hewn",
+      "Translation-fr": "tailler"
     },
     {
       "Base": "hide",
@@ -469,6 +553,12 @@
       "Translation-fr": "devoir (obligation forte)"
     },
     {
+      "Base": "overcome",
+      "Past-simple": "overcame",
+      "Past-Participle": "overcome",
+      "Translation-fr": "surmonter"
+    },
+    {
       "Base": "overtake",
       "Past-simple": "overtook",
       "Past-Participle": "overtaken",
@@ -491,6 +581,12 @@
       "Past-simple": "read",
       "Past-Participle": "read",
       "Translation-fr": "lire"
+    },
+    {
+      "Base": "rend",
+      "Past-simple": "rent",
+      "Past-Participle": "rent",
+      "Translation-fr": "déchirer violemment"
     },
     {
       "Base": "ride",
@@ -625,6 +721,12 @@
       "Translation-fr": "s'asseoir"
     },
     {
+      "Base": "slay",
+      "Past-simple": "slew",
+      "Past-Participle": "slain",
+      "Translation-fr": "tuer, massacrer"
+    },
+    {
       "Base": "sleep",
       "Past-simple": "slept",
       "Past-Participle": "slept",
@@ -635,6 +737,12 @@
       "Past-simple": "slid",
       "Past-Participle": "slid",
       "Translation-fr": "glisser"
+    },
+    {
+      "Base": "sling",
+      "Past-simple": "slung",
+      "Past-Participle": "slung",
+      "Translation-fr": "lancer violemment"
     },
     {
       "Base": "smell",
@@ -685,6 +793,18 @@
       "Translation-fr": "séparer, diviser, scinder, fendre, partager"
     },
     {
+      "Base": "smite",
+      "Past-simple": "smote",
+      "Past-Participle": "smitten",
+      "Translation-fr": "frapper violemment"
+    },
+    {
+      "Base": "spin",
+      "Past-simple": ["spun", "span"],
+      "Past-Participle": "spun",
+      "Translation-fr": "tourner, tournoyer"
+    },
+    {
       "Base": "spoil",
       "Past-simple": ["spoiled", "spoilt"],
       "Past-Participle": ["spoiled", "spoilt"],
@@ -733,10 +853,34 @@
       "Translation-fr": "puer"
     },
     {
+      "Base": "strew",
+      "Past-simple": "strewed",
+      "Past-Participle": "strewn",
+      "Translation-fr": "parsemer"
+    },
+    {
+      "Base": "stride",
+      "Past-simple": "strode",
+      "Past-Participle": "stridden",
+      "Translation-fr": "marcher à grands pas"
+    },
+    {
       "Base": "strike",
       "Past-simple": "struck",
       "Past-Participle": "struck",
       "Translation-fr": "frapper, attaquer"
+    },
+    {
+      "Base": "string",
+      "Past-simple": "strung",
+      "Past-Participle": "strung",
+      "Translation-fr": "ficeler"
+    },
+    {
+      "Base": "strip",
+      "Past-simple": ["stript", "stripped "],
+      "Past-Participle": ["stript", "stripped "],
+      "Translation-fr": "enlever, retirer, dépouiller"
     },
     {
       "Base": "strive",
@@ -805,10 +949,22 @@
       "Translation-fr": "penser"
     },
     {
+      "Base": "thrive",
+      "Past-simple": "throve",
+      "Past-Participle": "thriven",
+      "Translation-fr": "prospérer"
+    },
+    {
       "Base": "throw",
       "Past-simple": "threw",
       "Past-Participle": "thrown",
       "Translation-fr": "lancer"
+    },
+    {
+      "Base": "tread",
+      "Past-simple": "trod",
+      "Past-Participle": ["trodden", "trod"],
+      "Translation-fr": "fouler, marcher sur, piétiner"
     },
     {
       "Base": "undergo",
@@ -859,118 +1015,10 @@
       "Translation-fr": "enrouler"
     },
     {
-      "Base": "write",
-      "Past-simple": "wrote",
-      "Past-Participle": "written",
-      "Translation-fr": "écrire"
-    },
-    {
-      "Base": "abide",
-      "Past-simple": "abode",
-      "Past-Participle": "abode",
-      "Translation-fr": "demeurer, supporter"
-    },
-    {
-      "Base": "befall",
-      "Past-simple": "befell",
-      "Past-Participle": "befallen",
-      "Translation-fr": "survenir"
-    },
-    {
-      "Base": "behold",
-      "Past-simple": "beheld",
-      "Past-Participle": "beheld",
-      "Translation-fr": "contempler"
-    },
-    {
-      "Base": "beseech",
-      "Past-simple": "besought",
-      "Past-Participle": "besought",
-      "Translation-fr": "supplier"
-    },
-    {
-      "Base": "betide",
-      "Past-simple": "betid",
-      "Past-Participle": "betid",
-      "Translation-fr": "advenir"
-    },
-    {
-      "Base": "cleave",
-      "Past-simple": "clove",
-      "Past-Participle": "cloven",
-      "Translation-fr": "fendre"
-    },
-    {
-      "Base": "forsake",
-      "Past-simple": "forsook",
-      "Past-Participle": "forsaken",
-      "Translation-fr": "abandonner"
-    },
-    {
-      "Base": "heave",
-      "Past-simple": "hove",
-      "Past-Participle": "hove",
-      "Translation-fr": "soulever avec effort"
-    },
-    {
-      "Base": "hew",
-      "Past-simple": "hewed",
-      "Past-Participle": "hewn",
-      "Translation-fr": "tailler"
-    },
-    {
-      "Base": "rend",
-      "Past-simple": "rent",
-      "Past-Participle": "rent",
-      "Translation-fr": "déchirer violemment"
-    },
-    {
-      "Base": "slay",
-      "Past-simple": "slew",
-      "Past-Participle": "slain",
-      "Translation-fr": "tuer, massacrer"
-    },
-    {
-      "Base": "smite",
-      "Past-simple": "smote",
-      "Past-Participle": "smitten",
-      "Translation-fr": "frapper violemment"
-    },
-    {
-      "Base": "spin",
-      "Past-simple": ["spun", "span"],
-      "Past-Participle": "spun",
-      "Translation-fr": "tourner, tournoyer"
-    },
-    {
-      "Base": "strew",
-      "Past-simple": "strewed",
-      "Past-Participle": "strewn",
-      "Translation-fr": "parsemer"
-    },
-    {
-      "Base": "string",
-      "Past-simple": "strung",
-      "Past-Participle": "strung",
-      "Translation-fr": "ficeler"
-    },
-    {
-      "Base": "thrive",
-      "Past-simple": "throve",
-      "Past-Participle": "thriven",
-      "Translation-fr": "prospérer"
-    },
-    {
-      "Base": "tread",
-      "Past-simple": "trod",
-      "Past-Participle": ["trodden", "trod"],
-      "Translation-fr": "fouler, marcher sur, piétiner"
-    },
-    {
-      "Base": "wring",
-      "Past-simple": "wrung",
-      "Past-Participle": "wrung",
-      "Translation-fr": "tordre"
+      "Base": "withhold",
+      "Past-simple": "withheld",
+      "Past-Participle": "withheld",
+      "Translation-fr": "retenir (informations, argent...)"
     },
     {
       "Base": "wreak",
@@ -979,40 +1027,16 @@
       "Translation-fr": "infliger"
     },
     {
-      "Base": "withhold",
-      "Past-simple": "withheld",
-      "Past-Participle": "withheld",
-      "Translation-fr": "retenir (informations, argent...)"
+      "Base": "wring",
+      "Past-simple": "wrung",
+      "Past-Participle": "wrung",
+      "Translation-fr": "tordre"
     },
     {
-      "Base": "sling",
-      "Past-simple": "slung",
-      "Past-Participle": "slung",
-      "Translation-fr": "lancer violemment"
-    },
-    {
-      "Base": "stride",
-      "Past-simple": "strode",
-      "Past-Participle": "stridden",
-      "Translation-fr": "marcher à grands pas"
-    },
-    {
-      "Base": "dwell",
-      "Past-simple": ["dwelt", "dwelled"],
-      "Past-Participle": ["dwelt", "dwelled"],
-      "Translation-fr": "habiter, demeurer"
-    },
-    {
-      "Base": "overcome",
-      "Past-simple": "overcame",
-      "Past-Participle": "overcome",
-      "Translation-fr": "surmonter"
-    },
-    {
-      "Base": "strip",
-      "Past-simple": ["stript", "stripped "],
-      "Past-Participle": ["stript", "stripped "],
-      "Translation-fr": "enlever, retirer, dépouiller"
+      "Base": "write",
+      "Past-simple": "wrote",
+      "Past-Participle": "written",
+      "Translation-fr": "écrire"
     }
   ]
 }
