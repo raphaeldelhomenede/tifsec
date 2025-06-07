@@ -91,10 +91,22 @@
       "Translation-fr": "plier"
     },
     {
+      "Base": "bereave",
+      "Past-simple": ["bereaved", "bereft"],
+      "Past-Participle": ["bereaved", "bereft"],
+      "Translation-fr": "priver (par la perte d'un être cher)"
+    },
+    {
       "Base": "beseech",
       "Past-simple": "besought",
       "Past-Participle": "besought",
       "Translation-fr": "supplier"
+    },
+    {
+      "Base": "beset",
+      "Past-simple": "beset",
+      "Past-Participle": "beset",
+      "Translation-fr": "assaillir, harceler"
     },
     {
       "Base": "bet",
@@ -103,10 +115,34 @@
       "Translation-fr": "parier"
     },
     {
+      "Base": "betake",
+      "Past-simple": "betook",
+      "Past-Participle": "betaken",
+      "Translation-fr": "se rendre, aller quelque part, se diriger vers un lieu"
+    },
+    {
+      "Base": "bethink",
+      "Past-simple": "bethought",
+      "Past-Participle": "bethought",
+      "Translation-fr": "se souvenir, penser à"
+    },
+    {
       "Base": "betide",
       "Past-simple": "betid",
       "Past-Participle": "betid",
       "Translation-fr": "advenir"
+    },
+    {
+      "Base": "bid (farewell)",
+      "Past-simple": ["bid", "bade"],
+      "Past-Participle": "bidden",
+      "Translation-fr": "faire ses adieux, dire au revoir"
+    },
+    {
+      "Base": "bid (offer amount)",
+      "Past-simple": "bid",
+      "Past-Participle": "bid",
+      "Translation-fr": "offrir"
     },
     {
       "Base": "bind",
@@ -152,9 +188,15 @@
     },
     {
       "Base": "broadcast",
-      "Past-simple": "broadcast",
-      "Past-Participle": "broadcast",
+      "Past-simple": ["broadcast", "broadcasted"],
+      "Past-Participle": ["broadcast", "broadcasted"],
       "Translation-fr": "diffuser"
+    },
+    {
+      "Base": "browbeat",
+      "Past-simple": "browbeat",
+      "Past-Participle": ["browbeaten", "browbeat"],
+      "Translation-fr": ""
     },
     {
       "Base": "build",
@@ -322,7 +364,7 @@
       "Base": "fly",
       "Past-simple": "flew",
       "Past-Participle": "flown",
-      "Translation-fr": "voler (airs)"
+      "Translation-fr": "voler"
     },
     {
       "Base": "forbid",
@@ -832,7 +874,7 @@
       "Base": "steal",
       "Past-simple": "stole",
       "Past-Participle": "stolen",
-      "Translation-fr": "voler, dérober"
+      "Translation-fr": "voler"
     },
     {
       "Base": "stick",
