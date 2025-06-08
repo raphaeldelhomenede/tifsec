@@ -895,6 +895,12 @@
       "Translation-fr": "rencontrer"
     },
     {
+      "Base": "misbecome",
+      "Past-simple": "misbecame",
+      "Past-Participle": "misbecome",
+      "Translation-fr": "Être mal adapté, inapproprié, inconvenant"
+    },
+    {
       "Base": "mow",
       "Past-simple": "mowed",
       "Past-Participle": "mown",
