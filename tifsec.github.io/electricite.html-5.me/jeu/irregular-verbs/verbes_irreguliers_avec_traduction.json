@@ -217,16 +217,22 @@
       "Translation-fr": "éclater"
     },
     {
+      "Base": "bust",
+      "Past-simple": ["bust", "busted"],
+      "Past-Participle": ["bust", "busted"],
+      "Translation-fr": "bousiller, démolir"
+    },
+    {
       "Base": "buy",
       "Past-simple": "bought",
       "Past-Participle": "bought",
       "Translation-fr": "acheter"
     },
     {
-      "Base": "can",
-      "Past-simple": "could",
-      "Past-Participle": "been able",
-      "Translation-fr": "pouvoir"
+      "Base": "cast",
+      "Past-simple": "cast",
+      "Past-Participle": "cast",
+      "Translation-fr": "lancer"
     },
     {
       "Base": "catch",
@@ -235,10 +241,22 @@
       "Translation-fr": "attraper"
     },
     {
+      "Base": "chide",
+      "Past-simple": ["chided", "chid"],
+      "Past-Participle": ["chided", "chidden"],
+      "Translation-fr": "gronder"
+    },
+    {
       "Base": "choose",
       "Past-simple": "chose",
       "Past-Participle": "chosen",
       "Translation-fr": "choisir"
+    },
+    {
+      "Base": "clap",
+      "Past-simple": ["clapped", "clapt"],
+      "Past-Participle": ["clapped", "clapt"],
+      "Translation-fr": "taper, applaudir, frapper (des mains)"
     },
     {
       "Base": "cleave",
@@ -251,6 +269,18 @@
       "Past-simple": "clung",
       "Past-Participle": "clung",
       "Translation-fr": "s'accrocher"
+    },
+    {
+      "Base": "clothe",
+      "Past-simple": ["clothed", "clad"],
+      "Past-Participle": ["clothed", "clad"],
+      "Translation-fr": "vêtir, s'habiller"
+    },
+    {
+      "Base": "colorbreed",
+      "Past-simple": "colorbred",
+      "Past-Participle": "colorbred",
+      "Translation-fr": "engendrer des couleurs, croiser des couleurs"
     },
     {
       "Base": "come",
@@ -271,22 +301,58 @@
       "Translation-fr": "ramper"
     },
     {
+      "Base": "crossbreed",
+      "Past-simple": "crossbred",
+      "Past-Participle": "crossbred",
+      "Translation-fr": "croiser, hybrider"
+    },
+    {
       "Base": "cut",
       "Past-simple": "cut",
       "Past-Participle": "cut",
       "Translation-fr": "couper"
     },
     {
+      "Base": "dare",
+      "Past-simple": ["dared", "durst"],
+      "Past-Participle": ["dared", "durst"],
+      "Translation-fr": "oser"
+    },
+    {
+      "Base": "daydream",
+      "Past-simple": ["daydreamed", "daydreamt"],
+      "Past-Participle": ["daydreamed", "daydreamt"],
+      "Translation-fr": "rêvasser"
+    },
+    {
       "Base": "deal",
       "Past-simple": "dealt",
       "Past-Participle": "dealt",
-      "Translation-fr": "distribuer, traiter"
+      "Translation-fr": "distribuer, traiter, gérer, conclure un accord, dealer (vendre illégalement)"
     },
     {
       "Base": "dig",
       "Past-simple": "dug",
       "Past-Participle": "dug",
       "Translation-fr": "creuser"
+    },
+    {
+      "Base": "dight",
+      "Past-simple": ["dighted", "dight"],
+      "Past-Participle": ["dighted", "dight"],
+      "Translation-fr": "préparer, habiller"
+    },
+    {
+      "Base": "disprove",
+      "Past-simple": "disproved",
+      "Past-Participle": ["disproved", "disproven"],
+      "Translation-fr": "réfuter, démentir, prouver que c’est faux"
+    },
+    {
+      "Base": "dive",
+      "Past-simple": ["dove", "dived"],
+      "Past-Participle": "dived",
+      "Translation-fr": "plonger"
     },
     {
       "Base": "do",
@@ -331,6 +397,12 @@
       "Translation-fr": "manger"
     },
     {
+      "Base": "enwind",
+      "Past-simple": "enwound",
+      "Past-Participle": "enwound",
+      "Translation-fr": "enrouler, enlacer, entourer"
+    },
+    {
       "Base": "fall",
       "Past-simple": "fell",
       "Past-Participle": "fallen",
@@ -361,16 +433,94 @@
       "Translation-fr": "trouver"
     },
     {
+      "Base": "fit",
+      "Past-simple": ["fit", "fitted"],
+      "Past-Participle": ["fin", "fitted"],
+      "Translation-fr": "ajuster, être à la bonne taille"
+    },
+    {
+      "Base": "flee",
+      "Past-simple": "fled",
+      "Past-Participle": "fled",
+      "Translation-fr": "fuir, s'enfuir"
+    },
+    {
+      "Base": "fling",
+      "Past-simple": "flung",
+      "Past-Participle": "flung",
+      "Translation-fr": "projeter, balancer, envoyer, catapulter, éjecter, propulser, jeter brusquement"
+    },
+    {
       "Base": "fly",
       "Past-simple": "flew",
       "Past-Participle": "flown",
       "Translation-fr": "voler"
     },
     {
+      "Base": "forbear",
+      "Past-simple": "forbore",
+      "Past-Participle": "forborne",
+      "Translation-fr": "se retenir, faire preuve de patience"
+    },
+    {
       "Base": "forbid",
       "Past-simple": "forbade",
       "Past-Participle": "forbidden",
       "Translation-fr": "interdire"
+    },
+    {
+      "Base": "fordo",
+      "Past-simple": "fordid",
+      "Past-Participle": "fordone",
+      "Translation-fr": "détruire, anéantir, ruiner"
+    },
+    {
+      "Base": "forecast",
+      "Past-simple": "forecast",
+      "Past-Participle": "forecast",
+      "Translation-fr": "prévoir, prédire, pronostiquer, parier"
+    },
+    {
+      "Base": "forego",
+      "Past-simple": "forewent",
+      "Past-Participle": "foregone",
+      "Translation-fr": "renoncer à, laisser de côté, s'abstenir de"
+    },
+    {
+      "Base": "foreknow",
+      "Past-simple": "foreknew",
+      "Past-Participle": "foreknown",
+      "Translation-fr": "connaître à l'avance, savoir d'avance, prévoir"
+    },
+    {
+      "Base": "forerun",
+      "Past-simple": "foreran",
+      "Past-Participle": "forerun",
+      "Translation-fr": "précéder, annoncer, être avant-coureur de"
+    },
+    {
+      "Base": "foresee",
+      "Past-simple": "foresaw",
+      "Past-Participle": "foreseen",
+      "Translation-fr": "prévoir, anticiper"
+    },
+    {
+      "Base": "foreshow",
+      "Past-simple": "foreshowed",
+      "Past-Participle": "foreshown",
+      "Translation-fr": "montrer à l'avance, présager, annoncer à l'avance"
+    },
+    {
+      "Base": "forespeak",
+      "Past-simple": "forespoke",
+      "Past-Participle": "forespoken",
+      "Translation-fr": "prédire, annoncer à l'avance (rare, littéraire ou archaïque)"
+    },
+    {
+      "Base": "foretell",
+      "Past-simple": "foretold",
+      "Past-Participle": "foretold",
+      "Translation-fr": "prédire, annoncer à l'avance"
     },
     {
       "Base": "forget",
@@ -391,16 +541,46 @@
       "Translation-fr": "abandonner"
     },
     {
+      "Base": "forswear",
+      "Past-simple": "forswore",
+      "Past-Participle": "forsworn",
+      "Translation-fr": "abjurer, jurer de ne plus faire"
+    },
+    {
+      "Base": "fraught",
+      "Past-simple": "fraught",
+      "Past-Participle": "fraught",
+      "Translation-fr": "remplir de (émotions, tensions, etc.), charger de (sens négatif), charger (un navire, sens archaïque), tendu"
+    },
+    {
       "Base": "freeze",
       "Past-simple": "froze",
       "Past-Participle": "frozen",
       "Translation-fr": "geler"
     },
     {
+      "Base": "frostbite",
+      "Past-simple": "frostbit",
+      "Past-Participle": "frostbitten",
+      "Translation-fr": "provoquer des gelures sur"
+    },
+    {
+      "Base": "gainsay",
+      "Past-simple": "gainsaid",
+      "Past-Participle": "gainsaid",
+      "Translation-fr": "contredire, nier, s’opposer à"
+    },
+    {
       "Base": "get",
       "Past-simple": "got",
-      "Past-Participle": "got",
+      "Past-Participle": ["got", "gotten"],
       "Translation-fr": "obtenir"
+    },
+    {
+      "Base": "gild",
+      "Past-simple": ["gilded", "gilt"],
+      "Past-Participle": ["gilded", "gilt"],
+      "Translation-fr": "dorer, enjoliver, embellir"
     },
     {
       "Base": "give",
@@ -427,6 +607,36 @@
       "Translation-fr": "grandir, pousser"
     },
     {
+      "Base": "hagride",
+      "Past-simple": "hagrode",
+      "Past-Participle": "hagridden",
+      "Translation-fr": "tourmenter, harceler, obséder (par des cauchemars, des soucis, etc.)"
+    },
+    {
+      "Base": "halterbreak",
+      "Past-simple": "halterbroke",
+      "Past-Participle": "halterbroken",
+      "Translation-fr": "dresser (un cheval) à la longe, habituer (un animal) au licol"
+    },
+    {
+      "Base": "hamstring",
+      "Past-simple": "hamstrung",
+      "Past-Participle": "hamstrung",
+      "Translation-fr": "couper le jarret (d’un animal), paralyser (au sens propre ou figuré)"
+    },
+    {
+      "Base": "hand-feed",
+      "Past-simple": "hand-fed",
+      "Past-Participle": "hand-fed",
+      "Translation-fr": "nourrir à la main, donner la becquée"
+    },
+    {
+      "Base": "handwrite",
+      "Past-simple": "handwrote",
+      "Past-Participle": "handwritten",
+      "Translation-fr": "écrire à la main"
+    },
+    {
       "Base": "hang",
       "Past-simple": "hung",
       "Past-Participle": "hung",
@@ -446,14 +656,14 @@
     },
     {
       "Base": "heave",
-      "Past-simple": "hove",
-      "Past-Participle": "hove",
+      "Past-simple": ["hove", "heaved"],
+      "Past-Participle": ["hove", "heaved"],
       "Translation-fr": "soulever avec effort"
     },
     {
       "Base": "hew",
       "Past-simple": "hewed",
-      "Past-Participle": "hewn",
+      "Past-Participle": ["hewn", "hewed"],
       "Translation-fr": "tailler"
     },
     {
@@ -481,6 +691,78 @@
       "Translation-fr": "blesser"
     },
     {
+      "Base": "inbreed",
+      "Past-simple": "inbred",
+      "Past-Participle": "inbred",
+      "Translation-fr": "reproduire par consanguinité, accoupler entre individus apparentés"
+    },
+    {
+      "Base": "inlay",
+      "Past-simple": "inlaid",
+      "Past-Participle": "inlaid",
+      "Translation-fr": "incruster"
+    },
+    {
+      "Base": "input",
+      "Past-simple": ["input", "inputted"],
+      "Past-Participle": ["input", "inputted"],
+      "Translation-fr": "entrer (des données), saisir"
+    },
+    {
+      "Base": "inset",
+      "Past-simple": "inset",
+      "Past-Participle": "inset",
+      "Translation-fr": "insérer, encastrer"
+    },
+    {
+      "Base": "interbreed",
+      "Past-simple": "interbred",
+      "Past-Participle": "interbred",
+      "Translation-fr": "croiser (des espèces ou des races), accoupler entre espèces ou races différentes"
+    },
+    {
+      "Base": "intercut",
+      "Past-simple": "intercut",
+      "Past-Participle": "intercut",
+      "Translation-fr": "entrecouper, alterner (des scènes, des images)"
+    },
+    {
+      "Base": "interlay",
+      "Past-simple": "interlaid",
+      "Past-Participle": "interlaid",
+      "Translation-fr": "interposer, insérer entre des couches"
+    },
+    {
+      "Base": "interset",
+      "Past-simple": "interset",
+      "Past-Participle": "interset",
+      "Translation-fr": "intercaler, insérer entre"
+    },
+    {
+      "Base": "interweave",
+      "Past-simple": ["interwove", "interweaved"],
+      "Past-Participle": ["interwoven", "interweaved"],
+      "Translation-fr": "entrelacer, entremêler"
+    },
+    {
+      "Base": "interwind",
+      "Past-simple": "interwound",
+      "Past-Participle": "interwound",
+      "Translation-fr": "enrouler ensemble, entrelacer par enroulement"
+    },
+    {
+      "Base": "inweave",
+      "Past-simple": ["inwove", "inweaved"],
+      "Past-Participle": ["inwoven", "inweaved"],
+      "Translation-fr": "tisser dans, insérer en tissant"
+    },
+    {
+      "Base": "jerry-build",
+      "Past-simple": "jerry-built",
+      "Past-Participle": "jerry-built",
+      "Translation-fr": "construire à la va-vite, bâcler (une construction)"
+    },
+    {
       "Base": "keep",
       "Past-simple": "kept",
       "Past-Participle": "kept",
@@ -493,10 +775,28 @@
       "Translation-fr": "s'agenouiller"
     },
     {
+      "Base": "knit",
+      "Past-simple": ["knit", "knitted"],
+      "Past-Participle": ["knit", "knitted"],
+      "Translation-fr": "tricoter"
+    },
+    {
       "Base": "know",
       "Past-simple": "knew",
       "Past-Participle": "known",
       "Translation-fr": "savoir, connaître"
+    },
+    {
+      "Base": "lade",
+      "Past-simple": "laded",
+      "Past-Participle": ["laden", "laded"],
+      "Translation-fr": "charger"
+    },
+    {
+      "Base": "landslide",
+      "Past-simple": "landslid",
+      "Past-Participle": "landslid",
+      "Translation-fr": "glisser (en parlant d’un terrain, rare), provoquer un glissement de terrain"
     },
     {
       "Base": "lay",
@@ -517,6 +817,12 @@
       "Translation-fr": "se pencher, s'appuyer"
     },
     {
+      "Base": "leap",
+      "Past-simple": ["leaped", "leapt"],
+      "Past-Participle": ["leaped", "leapt"],
+      "Translation-fr": "sauter, bondir"
+    },
+    {
       "Base": "learn",
       "Past-simple": ["learnt", "learned"],
       "Past-Participle": ["learnt","learned"],
@@ -529,10 +835,16 @@
       "Translation-fr": "quitter"
     },
     {
-      "Base": "lent",
+      "Base": "lend",
       "Past-simple": "lent",
       "Past-Participle": "lent",
       "Translation-fr": "prêter"
+    },
+    {
+      "Base": "let",
+      "Past-simple": "let",
+      "Past-Participle": "let",
+      "Translation-fr": "louer, laisser, permettre"
     },
     {
       "Base": "lie",
@@ -553,6 +865,12 @@
       "Translation-fr": "allumer"
     },
     {
+      "Base": "lip-read",
+      "Past-simple": "lip-read",
+      "Past-Participle": "lip-read",
+      "Translation-fr": "lire sur les lèvres"
+    },
+    {
       "Base": "lose",
       "Past-simple": "lost",
       "Past-Participle": "lost",
@@ -563,12 +881,6 @@
       "Past-simple": "made",
       "Past-Participle": "made",
       "Translation-fr": "fabriquer, faire"
-    },
-    {
-      "Base": "may",
-      "Past-simple": "might",
-      "Past-Participle": "",
-      "Translation-fr": "pouvoir (possibilité)"
     },
     {
       "Base": "mean",
@@ -587,12 +899,6 @@
       "Past-simple": "mowed",
       "Past-Participle": "mown",
       "Translation-fr": "tondre"
-    },
-    {
-      "Base": "must",
-      "Past-simple": "had to",
-      "Past-Participle": "",
-      "Translation-fr": "devoir (obligation forte)"
     },
     {
       "Base": "overcome",
@@ -1000,7 +1306,7 @@
       "Base": "throw",
       "Past-simple": "threw",
       "Past-Participle": "thrown",
-      "Translation-fr": "lancer"
+      "Translation-fr": "jeter / lancer"
     },
     {
       "Base": "tread",
