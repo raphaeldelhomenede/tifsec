@@ -901,10 +901,424 @@
       "Translation-fr": "Être mal adapté, inapproprié, inconvenant"
     },
     {
+      "Base": "miscast",
+      "Past-simple": "miscast",
+      "Past-Participle": "miscast",
+      "Translation-fr": "mal distribuer (un rôle)"
+    },
+    {
+      "Base": "miscut",
+      "Past-simple": "miscut",
+      "Past-Participle": "miscut",
+      "Translation-fr": "mal couper"
+    },
+    {
+      "Base": "misdeal",
+      "Past-simple": "misdealt",
+      "Past-Participle": "misdealt",
+      "Translation-fr": "mal distribuer (les cartes)"
+    },
+    {
+      "Base": "misdo",
+      "Past-simple": "misdid",
+      "Past-Participle": "misdone",
+      "Translation-fr": "mal faire"
+    },
+    {
+      "Base": "mishear",
+      "Past-simple": "misheard",
+      "Past-Participle": "misheard",
+      "Translation-fr": "mal entendre"
+    },
+    {
+      "Base": "mishit",
+      "Past-simple": "mishit",
+      "Past-Participle": "mishit",
+      "Translation-fr": "mal frapper"
+    },
+    {
+      "Base": "mislay",
+      "Past-simple": "mislaid",
+      "Past-Participle": "mislaid",
+      "Translation-fr": "égarer"
+    },
+    {
+      "Base": "mislead",
+      "Past-simple": "misled",
+      "Past-Participle": "misled",
+      "Translation-fr": "induire en erreur"
+    },
+    {
+      "Base": "mislearn",
+      "Past-simple": ["mislearned", "mislearnt"],
+      "Past-Participle": ["mislearned", "mislearnt"],
+      "Translation-fr": "mal apprendre"
+    },
+    {
+      "Base": "misread",
+      "Past-simple": "misread",
+      "Past-Participle": "misread",
+      "Translation-fr": "mal lire"
+    },
+    {
+      "Base": "missay",
+      "Past-simple": "missaid",
+      "Past-Participle": "missaid",
+      "Translation-fr": "mal dire"
+    },
+    {
+      "Base": "missend",
+      "Past-simple": "missent",
+      "Past-Participle": "missent",
+      "Translation-fr": "mal envoyer"
+    },
+    {
+      "Base": "misset",
+      "Past-simple": "misset",
+      "Past-Participle": "misset",
+      "Translation-fr": "mal régler / configurer"
+    },
+    {
+      "Base": "misspeak",
+      "Past-simple": "misspoke",
+      "Past-Participle": "misspoken",
+      "Translation-fr": "mal s’exprimer"
+    },
+    {
+      "Base": "misspell",
+      "Past-simple": ["misspelled", "misspelt"],
+      "Past-Participle": ["misspelled", "misspelt"],
+      "Translation-fr": "mal orthographier"
+    },
+    {
+      "Base": "misspend",
+      "Past-simple": "misspent",
+      "Past-Participle": "misspent",
+      "Translation-fr": "mal dépenser (temps, argent)"
+    },
+    {
+      "Base": "misswear",
+      "Past-simple": "misswore",
+      "Past-Participle": "missworn",
+      "Translation-fr": "mal porter (vêtement)"
+    },
+    {
+      "Base": "mistake",
+      "Past-simple": "mistook",
+      "Past-Participle": "mistaken",
+      "Translation-fr": "se tromper"
+    },
+    {
+      "Base": "misteach",
+      "Past-simple": "mistaught",
+      "Past-Participle": "mistaught",
+      "Translation-fr": "mal enseigner"
+    },
+    {
+      "Base": "mistell",
+      "Past-simple": "mistold",
+      "Past-Participle": "mistold",
+      "Translation-fr": "mal raconter"
+    },
+    {
+      "Base": "misthink",
+      "Past-simple": "misthought",
+      "Past-Participle": "misthought",
+      "Translation-fr": "mal penser / se tromper"
+    },
+    {
+      "Base": "misunderstand",
+      "Past-simple": "misunderstood",
+      "Past-Participle": "misunderstood",
+      "Translation-fr": "mal comprendre"
+    },
+    {
+      "Base": "miswear",
+      "Past-simple": "miswore",
+      "Past-Participle": "misworn",
+      "Translation-fr": "mal porter (répété)"
+    },
+    {
+      "Base": "miswed",
+      "Past-simple": ["miswed", "miswedded"],
+      "Past-Participle": ["miswed", "miswedded"],
+      "Translation-fr": "mal se marier / mariage erroné"
+    },
+    {
+      "Base": "miswrite",
+      "Past-simple": "miswrote",
+      "Past-Participle": "miswritten",
+      "Translation-fr": "mal écrire"
+    },
+    {
       "Base": "mow",
       "Past-simple": "mowed",
       "Past-Participle": "mown",
       "Translation-fr": "tondre"
+    },
+    {
+      "Base": "offset",
+      "Past-simple": "offset",
+      "Past-Participle": "offset",
+      "Translation-fr": "compenser"
+    },
+    {
+      "Base": "outbid",
+      "Past-simple": "outbid",
+      "Past-Participle": "outbid",
+      "Translation-fr": "surenchérir"
+    },
+    {
+      "Base": "outbreed",
+      "Past-simple": "outbred",
+      "Past-Participle": "outbred",
+      "Translation-fr": "reproduire plus que"
+    },
+    {
+      "Base": "outdo",
+      "Past-simple": "outdid",
+      "Past-Participle": "outdone",
+      "Translation-fr": "surpasser"
+    },
+    {
+      "Base": "outdraw",
+      "Past-simple": "outdrew",
+      "Past-Participle": "outdrawn",
+      "Translation-fr": "tirer plus vite"
+    },
+    {
+      "Base": "outdrink",
+      "Past-simple": "outdrank",
+      "Past-Participle": "outdrunk",
+      "Translation-fr": "boire plus que"
+    },
+    {
+      "Base": "outdrive",
+      "Past-simple": "outdrove",
+      "Past-Participle": "outdriven",
+      "Translation-fr": "mieux conduire"
+    },
+    {
+      "Base": "outfight",
+      "Past-simple": "outfought",
+      "Past-Participle": "outfought",
+      "Translation-fr": "battre (mieux se battre que)"
+    },
+    {
+      "Base": "outfly",
+      "Past-simple": "outflew",
+      "Past-Participle": "outflown",
+      "Translation-fr": "voler plus vite que"
+    },
+    {
+      "Base": "outgrow",
+      "Past-simple": "outgrew",
+      "Past-Participle": "outgrown",
+      "Translation-fr": "dépasser en taille / devenir trop grand pour"
+    },
+    {
+      "Base": "outlay",
+      "Past-simple": "outlaid",
+      "Past-Participle": "outlaid",
+      "Translation-fr": "dépenser (investir)"
+    },
+    {
+      "Base": "outleap",
+      "Past-simple": ["outleaped", "outleapt"],
+      "Past-Participle": ["outleaped", "outleapt"],
+      "Translation-fr": "sauter plus haut / plus loin"
+    },
+    {
+      "Base": "outlie",
+      "Past-simple": "outlied",
+      "Past-Participle": "outlied",
+      "Translation-fr": "mentir plus que"
+    },
+    {
+      "Base": "output",
+      "Past-simple": ["output", "outputted"],
+      "Past-Participle": ["output", "outputted"],
+      "Translation-fr": "produire / générer"
+    },
+    {
+      "Base": "outride",
+      "Past-simple": "outrode",
+      "Past-Participle": "outridden",
+      "Translation-fr": "mieux chevaucher / surpasser à cheval"
+    },
+    {
+      "Base": "outrun",
+      "Past-simple": "outran",
+      "Past-Participle": "outrun",
+      "Translation-fr": "courir plus vite que"
+    },
+    {
+      "Base": "outsee",
+      "Past-simple": "outsaw",
+      "Past-Participle": "outseen",
+      "Translation-fr": "voir au-delà / mieux voir"
+    },
+    {
+      "Base": "outsell",
+      "Past-simple": "outsold",
+      "Past-Participle": "outsold",
+      "Translation-fr": "mieux se vendre que"
+    },
+    {
+      "Base": "outshine",
+      "Past-simple": ["outshined", "outshone"],
+      "Past-Participle": ["outshined", "outshone"],
+      "Translation-fr": "éclipser / briller plus que"
+    },
+    {
+      "Base": "outshoot",
+      "Past-simple": "outshot",
+      "Past-Participle": "outshot",
+      "Translation-fr": "tirer mieux que"
+    },
+    {
+      "Base": "outsing",
+      "Past-simple": "outsang",
+      "Past-Participle": "outsung",
+      "Translation-fr": "chanter mieux que"
+    },
+    {
+      "Base": "outsit",
+      "Past-simple": "outsat",
+      "Past-Participle": "outsat",
+      "Translation-fr": "rester assis plus longtemps que"
+    },
+    {
+      "Base": "outsleep",
+      "Past-simple": "outslept",
+      "Past-Participle": "outslept",
+      "Translation-fr": "dormir plus longtemps que"
+    },
+    {
+      "Base": "outsmell",
+      "Past-simple": ["outsmelled", "outsmelt"],
+      "Past-Participle": ["outsmelled", "outsmelt"],
+      "Translation-fr": "sentir mieux que"
+    },
+    {
+      "Base": "outspeak",
+      "Past-simple": "outspoke",
+      "Past-Participle": "outspoken",
+      "Translation-fr": "parler plus franchement que"
+    },
+    {
+      "Base": "outspeed",
+      "Past-simple": "outsped",
+      "Past-Participle": "outsped",
+      "Translation-fr": "aller plus vite que"
+    },
+    {
+      "Base": "outspend",
+      "Past-simple": "outspent",
+      "Past-Participle": "outspent",
+      "Translation-fr": "dépenser plus que"
+    },
+    {
+      "Base": "outspin",
+      "Past-simple": "outspun",
+      "Past-Participle": "outspun",
+      "Translation-fr": "faire tourner plus vite"
+    },
+    {
+      "Base": "outspring",
+      "Past-simple": ["outsprang", "outsprung"],
+      "Past-Participle": "outsprung",
+      "Translation-fr": "sauter plus loin que"
+    },
+    {
+      "Base": "outstand",
+      "Past-simple": "outstood",
+      "Past-Participle": "outstood",
+      "Translation-fr": "se distinguer / se démarquer"
+    },
+    {
+      "Base": "outswear",
+      "Past-simple": "outswore",
+      "Past-Participle": "outsworn",
+      "Translation-fr": "jurer plus que"
+    },
+    {
+      "Base": "outswim",
+      "Past-simple": "outswam",
+      "Past-Participle": "outswum",
+      "Translation-fr": "nager plus vite que"
+    },
+    {
+      "Base": "outtell",
+      "Past-simple": "outtold",
+      "Past-Participle": "outtold",
+      "Translation-fr": "raconter mieux que"
+    },
+    {
+      "Base": "outthink",
+      "Past-simple": "outthought",
+      "Past-Participle": "outthought",
+      "Translation-fr": "mieux réfléchir que"
+    },
+    {
+      "Base": "outthrow",
+      "Past-simple": "outthrew",
+      "Past-Participle": "outthrown",
+      "Translation-fr": "lancer plus loin que"
+    },
+    {
+      "Base": "outwear",
+      "Past-simple": "outwore",
+      "Past-Participle": "outworn",
+      "Translation-fr": "user plus vite que / résister plus longtemps"
+    },
+    {
+      "Base": "outwind",
+      "Past-simple": "outwound",
+      "Past-Participle": "outwound",
+      "Translation-fr": "dérouler plus que"
+    },
+    {
+      "Base": "outwrite",
+      "Past-simple": "outwrote",
+      "Past-Participle": "outwritten",
+      "Translation-fr": "mieux écrire que"
+    },
+    {
+      "Base": "overbear",
+      "Past-simple": "overbore",
+      "Past-Participle": ["overborne", "overborn"],
+      "Translation-fr": "dominer / accabler"
+    },
+    {
+      "Base": "overbid",
+      "Past-simple": "overbid",
+      "Past-Participle": "overbid",
+      "Translation-fr": "surenchérir"
+    },
+    {
+      "Base": "overbreed",
+      "Past-simple": "overbred",
+      "Past-Participle": "overbred",
+      "Translation-fr": "se reproduire excessivement"
+    },
+    {
+      "Base": "overbuild",
+      "Past-simple": "overbuilt",
+      "Past-Participle": "overbuilt",
+      "Translation-fr": "trop construire"
+    },
+    {
+      "Base": "overbuy",
+      "Past-simple": "overbought",
+      "Past-Participle": "overbought",
+      "Translation-fr": "acheter en excès"
+    },
+    {
+      "Base": "overcast",
+      "Past-simple": "overcast",
+      "Past-Participle": "overcast",
+      "Translation-fr": "couvrir (de nuages) / assombrir"
     },
     {
       "Base": "overcome",
@@ -913,10 +1327,232 @@
       "Translation-fr": "surmonter"
     },
     {
+      "Base": "overcut",
+      "Past-simple": "overcut",
+      "Past-Participle": "overcut",
+      "Translation-fr": "trop couper"
+    },
+    {
+      "Base": "overdo",
+      "Past-simple": "overdid",
+      "Past-Participle": "overdone",
+      "Translation-fr": "exagérer / en faire trop"
+    },
+    {
+      "Base": "overdraw",
+      "Past-simple": "overdrew",
+      "Past-Participle": "overdrawn",
+      "Translation-fr": "dépasser son découvert bancaire"
+    },
+    {
+      "Base": "overdrink",
+      "Past-simple": "overdrank",
+      "Past-Participle": "overdrunk",
+      "Translation-fr": "trop boire"
+    },
+    {
+      "Base": "overeat",
+      "Past-simple": "overate",
+      "Past-Participle": "overeaten",
+      "Translation-fr": "trop manger"
+    },
+    {
+      "Base": "overfeed",
+      "Past-simple": "overfed",
+      "Past-Participle": "overfed",
+      "Translation-fr": "suralimenter"
+    },
+    {
+      "Base": "overhang",
+      "Past-simple": "overhung",
+      "Past-Participle": "overhung",
+      "Translation-fr": "surplomber"
+    },
+    {
+      "Base": "overhear",
+      "Past-simple": "overheard",
+      "Past-Participle": "overheard",
+      "Translation-fr": "entendre par accident / surprendre une conversation"
+    },
+    {
+      "Base": "overlay",
+      "Past-simple": "overlaid",
+      "Past-Participle": "overlaid",
+      "Translation-fr": "recouvrir / superposer"
+    },
+    {
+      "Base": "overleap",
+      "Past-simple": ["overleaped", "overleapt"],
+      "Past-Participle": ["overleaped", "overleapt"],
+      "Translation-fr": "sauter par-dessus"
+    },
+    {
+      "Base": "overlie",
+      "Past-simple": "overlay",
+      "Past-Participle": "overlain",
+      "Translation-fr": "être couché sur / recouvrir"
+    },
+    {
+      "Base": "overpay",
+      "Past-simple": "overpaid",
+      "Past-Participle": "overpaid",
+      "Translation-fr": "trop payer"
+    },
+    {
+      "Base": "override",
+      "Past-simple": "overrode",
+      "Past-Participle": "overridden",
+      "Translation-fr": "passer outre / ignorer"
+    },
+    {
+      "Base": "overrun",
+      "Past-simple": "overran",
+      "Past-Participle": "overrun",
+      "Translation-fr": "déborder / envahir"
+    },
+    {
+      "Base": "oversee",
+      "Past-simple": "oversaw",
+      "Past-Participle": "overseen",
+      "Translation-fr": "superviser / surveiller"
+    },
+    {
+      "Base": "oversell",
+      "Past-simple": "oversold",
+      "Past-Participle": "oversold",
+      "Translation-fr": "survendre / surestimer"
+    },
+    {
+      "Base": "overset",
+      "Past-simple": "overset",
+      "Past-Participle": "overset",
+      "Translation-fr": "renverser / bouleverser"
+    },
+    {
+      "Base": "oversew",
+      "Past-simple": "oversewed",
+      "Past-Participle": ["oversewn", "oversewed"],
+      "Translation-fr": "surpiquer / coudre par-dessus"
+    },
+    {
+      "Base": "overshoot",
+      "Past-simple": "overshot",
+      "Past-Participle": "overshot",
+      "Translation-fr": "dépasser la cible / aller trop loin"
+    },
+    {
+      "Base": "oversleep",
+      "Past-simple": "overslept",
+      "Past-Participle": "overslept",
+      "Translation-fr": "trop dormir / ne pas se réveiller à l’heure"
+    },
+    {
+      "Base": "oversow",
+      "Past-simple": "oversowed",
+      "Past-Participle": ["oversown", "oversowed"],
+      "Translation-fr": "ensemencer en excès"
+    },
+    {
+      "Base": "overspeak",
+      "Past-simple": "overspoke",
+      "Past-Participle": "overspoken",
+      "Translation-fr": "trop parler / s’exprimer trop"
+    },
+    {
+      "Base": "overspend",
+      "Past-simple": "overspent",
+      "Past-Participle": "overspent",
+      "Translation-fr": "dépenser excessivement"
+    },
+    {
+      "Base": "overspill",
+      "Past-simple": ["overspilled", "overspilt"],
+      "Past-Participle": ["overspilled", "overspilt"],
+      "Translation-fr": "déborder / se répandre"
+    },
+    {
+      "Base": "overspin",
+      "Past-simple": "overspun",
+      "Past-Participle": "overspun",
+      "Translation-fr": "faire tourner trop vite"
+    },
+    {
+      "Base": "overspread",
+      "Past-simple": "overspread",
+      "Past-Participle": "overspread",
+      "Translation-fr": "se répandre sur / recouvrir"
+    },
+    {
+      "Base": "overspring",
+      "Past-simple": ["oversprang", "oversprung"],
+      "Past-Participle": "oversprung",
+      "Translation-fr": "sauter au-dessus / sauter trop loin"
+    },
+    {
+      "Base": "overstand",
+      "Past-simple": "overstood",
+      "Past-Participle": "overstood",
+      "Translation-fr": "se tenir debout trop longtemps"
+    },
+    {
+      "Base": "overstrew",
+      "Past-simple": "overstrewed",
+      "Past-Participle": ["overstrewn", "overstrewed"],
+      "Translation-fr": "parsemer / joncher excessivement"
+    },
+    {
+      "Base": "overstride",
+      "Past-simple": "overstrode",
+      "Past-Participle": "overstridden",
+      "Translation-fr": "franchir d’un grand pas"
+    },
+    {
+      "Base": "overstrike",
+      "Past-simple": "overstruck",
+      "Past-Participle": "overstruck",
+      "Translation-fr": "frapper trop fort / refrapper (pièces de monnaie)"
+    },
+    {
       "Base": "overtake",
       "Past-simple": "overtook",
       "Past-Participle": "overtaken",
       "Translation-fr": "dépasser"
+    },
+    {
+      "Base": "overthink",
+      "Past-simple": "overthought",
+      "Past-Participle": "overthought",
+      "Translation-fr": "trop réfléchir"
+    },
+    {
+      "Base": "overthrow",
+      "Past-simple": "overthrew",
+      "Past-Participle": "overthrown",
+      "Translation-fr": "renverser (un gouvernement, un régime)"
+    },
+    {
+      "Base": "overwear",
+      "Past-simple": "overwore",
+      "Past-Participle": "overworn",
+      "Translation-fr": "trop porter (vêtements)"
+    },
+    {
+      "Base": "overwind",
+      "Past-simple": "overwound",
+      "Past-Participle": "overwound",
+      "Translation-fr": "trop remonter (mécanisme)"
+    },
+    {
+      "Base": "overwrite",
+      "Past-simple": "overwrote",
+      "Past-Participle": "overwritten",
+      "Translation-fr": "écraser (données) / réécrire par-dessus"
+    },
+    {
+      "Base": "partake",
+      "Past-simple": "partook",
+      "Past-Participle": "partaken",
+      "Translation-fr": "prendre part / participer"
     },
     {
       "Base": "pay",
@@ -925,10 +1561,88 @@
       "Translation-fr": "payer"
     },
     {
+      "Base": "plead",
+      "Past-simple": ["pleaded", "pled"],
+      "Past-Participle": ["pleaded", "pled"],
+      "Translation-fr": "plaider"
+    },
+    {
+      "Base": "prebuild",
+      "Past-simple": "prebuilt",
+      "Past-Participle": "prebuilt",
+      "Translation-fr": "préconstruire"
+    },
+    {
+      "Base": "predo",
+      "Past-simple": "predid",
+      "Past-Participle": "predone",
+      "Translation-fr": "refaire à l’avance"
+    },
+    {
+      "Base": "premake",
+      "Past-simple": "premade",
+      "Past-Participle": "premade",
+      "Translation-fr": "préparer à l’avance"
+    },
+    {
+      "Base": "prepay",
+      "Past-simple": "prepaid",
+      "Past-Participle": "prepaid",
+      "Translation-fr": "payer à l’avance"
+    },
+    {
+      "Base": "presell",
+      "Past-simple": "presold",
+      "Past-Participle": "presold",
+      "Translation-fr": "pré-vendre"
+    },
+    {
+      "Base": "preset",
+      "Past-simple": "preset",
+      "Past-Participle": "preset",
+      "Translation-fr": "prérégler"
+    },
+    {
+      "Base": "preshrink",
+      "Past-simple": "preshrank",
+      "Past-Participle": "preshrunk",
+      "Translation-fr": "prérétrécir"
+    },
+    {
+      "Base": "presplit",
+      "Past-simple": "presplit",
+      "Past-Participle": "presplit",
+      "Translation-fr": "prédiviser / prédivisé"
+    },
+    {
+      "Base": "proofread",
+      "Past-simple": "proofread",
+      "Past-Participle": "proofread",
+      "Translation-fr": "relire / corriger les épreuves"
+    },
+    {
+      "Base": "prove",
+      "Past-simple": "proved",
+      "Past-Participle": ["proven", "proved"],
+      "Translation-fr": "prouver"
+    },
+    {
       "Base": "put",
       "Past-simple": "put",
       "Past-Participle": "put",
       "Translation-fr": "mettre"
+    },
+    {
+      "Base": "quick-freeze",
+      "Past-simple": "quick-froze",
+      "Past-Participle": "quick-frozen",
+      "Translation-fr": "congeler rapidement"
+    },
+    {
+      "Base": "quit",
+      "Past-simple": ["quit", "quitted"],
+      "Past-Participle": ["quit", "quitted"],
+      "Translation-fr": "quitter / abandonner"
     },
     {
       "Base": "read",
@@ -937,10 +1651,280 @@
       "Translation-fr": "lire"
     },
     {
+      "Base": "reawake",
+      "Past-simple": "reawoke",
+      "Past-Participle": "reawaken",
+      "Translation-fr": "se réveiller de nouveau"
+    },
+    {
+      "Base": "rebid",
+      "Past-simple": "rebid",
+      "Past-Participle": "rebid",
+      "Translation-fr": "renchérir"
+    },
+    {
+      "Base": "rebind",
+      "Past-simple": "rebound",
+      "Past-Participle": "rebound",
+      "Translation-fr": "relier de nouveau"
+    },
+    {
+      "Base": "rebroadcast",
+      "Past-simple": ["rebroadcast", "rebroadcasted"],
+      "Past-Participle": ["rebroadcast", "rebroadcasted"],
+      "Translation-fr": "rediffuser"
+    },
+    {
+      "Base": "rebuild",
+      "Past-simple": "rebuilt",
+      "Past-Participle": "rebuilt",
+      "Translation-fr": "reconstruire"
+    },
+    {
+      "Base": "recast",
+      "Past-simple": "recast",
+      "Past-Participle": "recast",
+      "Translation-fr": "repartager / redistribuer un rôle"
+    },
+    {
+      "Base": "recut",
+      "Past-simple": "recut",
+      "Past-Participle": "recut",
+      "Translation-fr": "redecouper"
+    },
+    {
+      "Base": "redeal",
+      "Past-simple": "redealt",
+      "Past-Participle": "redealt",
+      "Translation-fr": "redistribuer"
+    },
+    {
+      "Base": "redo",
+      "Past-simple": "redid",
+      "Past-Participle": "redone",
+      "Translation-fr": "refaire"
+    },
+    {
+      "Base": "redraw",
+      "Past-simple": "redrew",
+      "Past-Participle": "redrawn",
+      "Translation-fr": "redessiner"
+    },
+    {
+      "Base": "reeve",
+      "Past-simple": ["reeved", "rove"],
+      "Past-Participle": ["reeved", "rove"],
+      "Translation-fr": "passer un cordage (marine)"
+    },
+    {
+      "Base": "refit",
+      "Past-simple": ["refit", "refitted"],
+      "Past-Participle": ["refit", "refitted"],
+      "Translation-fr": "réaménager / rééquiper"
+    },
+    {
+      "Base": "regrind",
+      "Past-simple": "reground",
+      "Past-Participle": "reground",
+      "Translation-fr": "re-moudre / réaffûter"
+    },
+    {
+      "Base": "regrow",
+      "Past-simple": "regrew",
+      "Past-Participle": "regrown",
+      "Translation-fr": "repousser"
+    },
+    {
+      "Base": "rehang",
+      "Past-simple": "rehung",
+      "Past-Participle": "rehung",
+      "Translation-fr": "rependre"
+    },
+    {
+      "Base": "rehear",
+      "Past-simple": "reheard",
+      "Past-Participle": "reheard",
+      "Translation-fr": "entendre de nouveau"
+    },
+    {
+      "Base": "reknit",
+      "Past-simple": ["reknit", "reknitted"],
+      "Past-Participle": ["reknit", "reknitted"],
+      "Translation-fr": "retricoter"
+    },
+    {
+      "Base": "relay",
+      "Past-simple": "relaid",
+      "Past-Participle": "relaid",
+      "Translation-fr": "reposer (ex : des câbles, des pavés)"
+    },
+    {
+      "Base": "relay",
+      "Past-simple": "relayed",
+      "Past-Participle": "relayed",
+      "Translation-fr": "transmettre / relayer"
+    },
+    {
+      "Base": "relearn",
+      "Past-simple": ["relearned", "relearnt"],
+      "Past-Participle": ["relearned", "relearnt"],
+      "Translation-fr": "réapprendre"
+    },
+    {
+      "Base": "relight",
+      "Past-simple": ["relit", "relighted"],
+      "Past-Participle": ["relit", "relighted"],
+      "Translation-fr": "rallumer"
+    },
+    {
+      "Base": "remake",
+      "Past-simple": "remade",
+      "Past-Participle": "remade",
+      "Translation-fr": "refaire / remanier"
+    },
+    {
       "Base": "rend",
       "Past-simple": "rent",
       "Past-Participle": "rent",
       "Translation-fr": "déchirer violemment"
+    },
+    {
+      "Base": "repay",
+      "Past-simple": "repaid",
+      "Past-Participle": "repaid",
+      "Translation-fr": "rembourser"
+    },
+    {
+      "Base": "reread",
+      "Past-simple": "reread",
+      "Past-Participle": "reread",
+      "Translation-fr": "relire"
+    },
+    {
+      "Base": "rerun",
+      "Past-simple": "reran",
+      "Past-Participle": "rerun",
+      "Translation-fr": "rediffuser / relancer"
+    },
+    {
+      "Base": "resell",
+      "Past-simple": "resold",
+      "Past-Participle": "resold",
+      "Translation-fr": "revendre"
+    },
+    {
+      "Base": "resend",
+      "Past-simple": "resent",
+      "Past-Participle": "resent",
+      "Translation-fr": "renvoyer"
+    },
+    {
+      "Base": "reset",
+      "Past-simple": "reset",
+      "Past-Participle": "reset",
+      "Translation-fr": "réinitialiser"
+    },
+    {
+      "Base": "resew",
+      "Past-simple": "resewed",
+      "Past-Participle": ["resewn", "resewed"],
+      "Translation-fr": "recoudre"
+    },
+    {
+      "Base": "retake",
+      "Past-simple": "retook",
+      "Past-Participle": "retaken",
+      "Translation-fr": "reprendre"
+    },
+    {
+      "Base": "reteach",
+      "Past-simple": "retaught",
+      "Past-Participle": "retaught",
+      "Translation-fr": "réenseigner"
+    },
+    {
+      "Base": "retear",
+      "Past-simple": "retore",
+      "Past-Participle": "retorn",
+      "Translation-fr": "re-déchirer"
+    },
+    {
+      "Base": "retell",
+      "Past-simple": "retold",
+      "Past-Participle": "retold",
+      "Translation-fr": "redire / raconter à nouveau"
+    },
+    {
+      "Base": "rethink",
+      "Past-simple": "rethought",
+      "Past-Participle": "rethought",
+      "Translation-fr": "repenser"
+    },
+    {
+      "Base": "retread",
+      "Past-simple": "retread",
+      "Past-Participle": "retread",
+      "Translation-fr": "reculer / rechapper (pneus)"
+    },
+    {
+      "Base": "retrofit",
+      "Past-simple": ["retrofitted", "retrofit"],
+      "Past-Participle": ["retrofitted", "retrofit"],
+      "Translation-fr": "adapter / moderniser"
+    },
+    {
+      "Base": "rewake",
+      "Past-simple": ["rewoke", "rewaked"],
+      "Past-Participle": ["rewaken", "rewaked"],
+      "Translation-fr": "se réveiller de nouveau"
+    },
+    {
+      "Base": "rewear",
+      "Past-simple": "rewore",
+      "Past-Participle": "reworn",
+      "Translation-fr": "reporter (des vêtements)"
+    },
+    {
+      "Base": "reweave",
+      "Past-simple": ["rewove", "reweaved"],
+      "Past-Participle": ["rewoven", "reweaved"],
+      "Translation-fr": "retisser"
+    },
+    {
+      "Base": "rewed",
+      "Past-simple": ["rewed", "rewedded"],
+      "Past-Participle": ["rewed", "rewedded"],
+      "Translation-fr": "se remarier"
+    },
+    {
+      "Base": "rewet",
+      "Past-simple": ["rewet", "rewetted"],
+      "Past-Participle": ["rewet", "rewetted"],
+      "Translation-fr": "réhumidifier"
+    },
+    {
+      "Base": "rewin",
+      "Past-simple": "rewon",
+      "Past-Participle": "rewon",
+      "Translation-fr": "regagner"
+    },
+    {
+      "Base": "rewind",
+      "Past-simple": "rewound",
+      "Past-Participle": "rewound",
+      "Translation-fr": "rembobiner"
+    },
+    {
+      "Base": "rewrite",
+      "Past-simple": "rewrote",
+      "Past-Participle": "rewritten",
+      "Translation-fr": "réécrire"
+    },
+    {
+      "Base": "rid",
+      "Past-simple": "rid",
+      "Past-Participle": "rid",
+      "Translation-fr": "débarrasser"
     },
     {
       "Base": "ride",
