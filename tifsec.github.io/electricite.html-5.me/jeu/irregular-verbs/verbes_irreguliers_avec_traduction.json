@@ -133,13 +133,13 @@
       "Translation-fr": "advenir"
     },
     {
-      "Base": "bid (farewell)",
+      "Base": "bid",
       "Past-simple": ["bid", "bade"],
       "Past-Participle": "bidden",
       "Translation-fr": "faire ses adieux, dire au revoir"
     },
     {
-      "Base": "bid (offer amount)",
+      "Base": "bid",
       "Past-simple": "bid",
       "Past-Participle": "bid",
       "Translation-fr": "offrir"
