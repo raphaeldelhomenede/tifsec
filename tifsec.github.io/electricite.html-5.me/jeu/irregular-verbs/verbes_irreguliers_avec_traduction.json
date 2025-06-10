@@ -196,7 +196,7 @@
       "Base": "browbeat",
       "Past-simple": "browbeat",
       "Past-Participle": ["browbeaten", "browbeat"],
-      "Translation-fr": ""
+      "Translation-fr": "intimider"
     },
     {
       "Base": "build",
@@ -1945,10 +1945,28 @@
       "Translation-fr": "se lever"
     },
     {
+      "Base": "rived",
+      "Past-simple": "rived",
+      "Past-Participle": ["riven", "rived"],
+      "Translation-fr": "fendre"
+    },
+    {
+      "Base": "roughcast",
+      "Past-simple": "roughcast",
+      "Past-Participle": "roughcast",
+      "Translation-fr": "projeter du mortier" 
+    },
+    {
       "Base": "run",
       "Past-simple": "ran",
       "Past-Participle": "run",
       "Translation-fr": "courir"
+    },
+    {
+      "Base": "sand-cast",
+      "Past-simple": "sand-cast",
+      "Past-Participle": "sand-cast",
+      "Translation-fr": "mouler au sable"
     },
     {
       "Base": "saw",
@@ -1967,6 +1985,23 @@
       "Past-simple": "saw",
       "Past-Participle": "seen",
       "Translation-fr": "voir"
+    },{
+      "Base": "seek",
+      "Past-simple": "sought",
+      "Past-Participle": "sought",
+      "Translation-fr": "chercher"
+    },
+    {
+      "Base": "self-feed",
+      "Past-simple": "self-fed",
+      "Past-Participle": "self-fed",
+      "Translation-fr": "s'auto-nourrir"
+    },
+    {
+      "Base": "self-sow",
+      "Past-simple": "self-sowed",
+      "Past-Participle": ["self-sown", "self-sowed"],
+      "Translation-fr": "s'auto-ensemencer"
     },
     {
       "Base": "sell",
@@ -1999,10 +2034,16 @@
       "Translation-fr": "secouer"
     },
     {
-      "Base": "shall",
-      "Past-simple": "should",
-      "Past-Participle": "",
-      "Translation-fr": "devoir (suggestion, obligation atténuée)"
+      "Base": "shave",
+      "Past-simple": "shaved",
+      "Past-Participle": ["shaved", "shaven"],
+      "Translation-fr": "raser"
+    },
+    {
+      "Base": "shear",
+      "Past-simple": "sheared",
+      "Past-Participle": ["sheared", "shorn"],
+      "Translation-fr": "tondre"
     },
     {
       "Base": "shed",
@@ -2015,6 +2056,18 @@
       "Past-simple": "shone",
       "Past-Participle": "shone",
       "Translation-fr": "briller"
+    },
+    {
+      "Base": "shit",
+      "Past-simple": ["shit", "shat", "shitted"],
+      "Past-Participle": ["shit", "shat", "shitted"],
+      "Translation-fr": "chier"
+    },
+    {
+      "Base": "shoe",
+      "Past-simple": ["shoed", "shod"],
+      "Past-Participle": ["shoed", "shod"],
+      "Translation-fr": "chausser (des chevaux)"
     },
     {
       "Base": "shoot",
@@ -2035,10 +2088,22 @@
       "Translation-fr": "rétrécir"
     },
     {
+      "Base": "shrive",
+      "Past-simple": ["shrove", "shrived"],
+      "Past-Participle": "shriven",
+      "Translation-fr": "absoudre"
+    },
+    {
       "Base": "shut",
       "Past-simple": "shut",
       "Past-Participle": "shut",
       "Translation-fr": "fermer"
+    },
+    {
+      "Base": "sight-read",
+      "Past-simple": "sight-read",
+      "Past-Participle": "sight-read",
+      "Translation-fr": "déchiffrer (à vue)"
     },
     {
       "Base": "sing",
@@ -2059,9 +2124,15 @@
       "Translation-fr": "s'asseoir"
     },
     {
+      "Base": "skywrite",
+      "Past-simple": "skywrote",
+      "Past-Participle": "skywritten",
+      "Translation-fr": "écrire dans le ciel"
+    },
+    {
       "Base": "slay",
-      "Past-simple": "slew",
-      "Past-Participle": "slain",
+      "Past-simple": ["slew", "slayed"],
+      "Past-Participle": ["slain", "slayed"],
       "Translation-fr": "tuer, massacrer"
     },
     {
@@ -2083,10 +2154,34 @@
       "Translation-fr": "lancer violemment"
     },
     {
+      "Base": "slink",
+      "Past-simple": ["slinked", "slunk"],
+      "Past-Participle": ["slinked", "slunk"],
+      "Translation-fr": "se faufiler furtivement"
+    },
+    {
+      "Base": "slit",
+      "Past-simple": "slit",
+      "Past-Participle": "slit",
+      "Translation-fr": "fendre"
+    },
+    {
       "Base": "smell",
       "Past-simple": "smelt",
       "Past-Participle": "smelt",
       "Translation-fr": "sentir"
+    },
+    {
+      "Base": "smite",
+      "Past-simple": "smote",
+      "Past-Participle": ["smitten", "smote"],
+      "Translation-fr": "frapper, frapper violemment"
+    },
+    {
+      "Base": "sneak",
+      "Past-simple": ["sneaked", "snuck"],
+      "Past-Participle": ["sneaked", "snuck"],
+      "Translation-fr": "se faufiler"
     },
     {
       "Base": "sow",
@@ -2099,6 +2194,12 @@
       "Past-simple": "spoke",
       "Past-Participle": "spoken",
       "Translation-fr": "parler"
+    },
+    {
+      "Base": "speed",
+      "Past-simple": ["sped", "speeded"],
+      "Past-Participle": ["sped", "speeded"],
+      "Translation-fr": "accélérer"
     },
     {
       "Base": "spell",
@@ -2119,6 +2220,12 @@
       "Translation-fr": "renverser"
     },
     {
+      "Base": "spin",
+      "Past-simple": ["spun", "span"],
+      "Past-Participle": "spun",
+      "Translation-fr": "tourner, tournoyer"
+    },
+    {
       "Base": "spit",
       "Past-simple": ["spat", "spit"],
       "Past-Participle": ["spat", "spit"],
@@ -2131,22 +2238,16 @@
       "Translation-fr": "séparer, diviser, scinder, fendre, partager"
     },
     {
-      "Base": "smite",
-      "Past-simple": "smote",
-      "Past-Participle": "smitten",
-      "Translation-fr": "frapper violemment"
-    },
-    {
-      "Base": "spin",
-      "Past-simple": ["spun", "span"],
-      "Past-Participle": "spun",
-      "Translation-fr": "tourner, tournoyer"
-    },
-    {
       "Base": "spoil",
       "Past-simple": ["spoiled", "spoilt"],
       "Past-Participle": ["spoiled", "spoilt"],
       "Translation-fr": "gâcher, abîmer, pourrir, ruiner, choyer excessivement"
+    },
+    {
+      "Base": "spoon-feed",
+      "Past-simple": "spoon-fed",
+      "Past-Participle": "spoon-fed",
+      "Translation-fr": "nourrir à la cuillère"
     },
     {
       "Base": "spread",
@@ -2157,14 +2258,26 @@
     {
       "Base": "spring",
       "Past-simple": ["sprang", "sprung"],
-      "Past-Participle": ["sprang", "sprung"],
+      "Past-Participle": ["sprung"],
       "Translation-fr": "sauter"
+    },
+    {
+      "Base": "stall-feed",
+      "Past-simple": "stall-fed",
+      "Past-Participle": "stall-fed",
+      "Translation-fr": "donner à manger en étable"
     },
     {
       "Base": "stand",
       "Past-simple": "stood",
       "Past-Participle": "stood",
       "Translation-fr": "se tenir debout"
+    },
+    {
+      "Base": "stave",
+      "Past-simple": ["staved", "stove"],
+      "Past-Participle": ["staved", "stove"],
+      "Translation-fr": "briser, enfoncer"
     },
     {
       "Base": "steal",
@@ -2205,6 +2318,12 @@
     {
       "Base": "strike",
       "Past-simple": "struck",
+      "Past-Participle": "stricken",
+      "Translation-fr": "supprimer"
+    },
+    {
+      "Base": "strike",
+      "Past-simple": "struck",
       "Past-Participle": "struck",
       "Translation-fr": "frapper, attaquer"
     },
@@ -2227,10 +2346,28 @@
       "Translation-fr": "s'efforcer de"
     },
     {
+      "Base": "sublet",
+      "Past-simple": "sublet",
+      "Past-Participle": "sublet",
+      "Translation-fr": "sous-louer"
+    },
+    {
+      "Base": "sunburn",
+      "Past-simple": ["sunburned", "sunburnt"],
+      "Past-Participle": ["sunburned", "sunburnt"],
+      "Translation-fr": "attraper un coup de soleil"
+    },
+    {
       "Base": "swear",
       "Past-simple": "swore",
       "Past-Participle": "sworn",
       "Translation-fr": "jurer"
+    },
+    {
+      "Base": "sweat",
+      "Past-simple": ["sweat", "sweated"],
+      "Past-Participle": ["sweat", "sweat"],
+      "Translation-fr": "suer, transpirer"
     },
     {
       "Base": "sweep",
@@ -2275,10 +2412,28 @@
       "Translation-fr": "déchirer"
     },
     {
+      "Base": "telecast",
+      "Past-simple": "telecast",
+      "Past-Participle": "telecast",
+      "Translation-fr": "diffuser à la télévision"
+    },
+    {
       "Base": "tell",
       "Past-simple": "told",
       "Past-Participle": "told",
       "Translation-fr": "raconter"
+    },
+    {
+      "Base": "test-drive",
+      "Past-simple": "test-drove",
+      "Past-Participle": "test-driven",
+      "Translation-fr": "essayer (une voiture)"
+    },
+    {
+      "Base": "test-fly",
+      "Past-simple": "test-flew",
+      "Past-Participle": "test-flown",
+      "Translation-fr": "faire un vol d'essai"
     },
     {
       "Base": "think",
@@ -2299,10 +2454,94 @@
       "Translation-fr": "jeter / lancer"
     },
     {
+      "Base": "thrust",
+      "Past-simple": "thrust",
+      "Past-Participle": "thrust",
+      "Translation-fr": "pousser brusquement, enfoncer"
+    },
+    {
       "Base": "tread",
       "Past-simple": "trod",
       "Past-Participle": ["trodden", "trod"],
       "Translation-fr": "fouler, marcher sur, piétiner"
+    },
+    {
+      "Base": "troubleshoot",
+      "Past-simple": "troubleshot",
+      "Past-Participle": "troubleshot",
+      "Translation-fr": "dépanner, résoudre un problème"
+    },
+    {
+      "Base": "typecast",
+      "Past-simple": "typecast",
+      "Past-Participle": "typecast",
+      "Translation-fr": "assigner un rôle stéréotypé"
+    },
+    {
+      "Base": "typeset",
+      "Past-simple": "typeset",
+      "Past-Participle": "typeset",
+      "Translation-fr": "composer (un texte)"
+    },
+    {
+      "Base": "typewrite",
+      "Past-simple": "typewrote",
+      "Past-Participle": "typewritten",
+      "Translation-fr": "dactylographier"
+    },
+    {
+      "Base": "unbear",
+      "Past-simple": "unbore",
+      "Past-Participle": ["unborn", "unborne"],
+      "Translation-fr": "enlever, retirer"
+    },
+    {
+      "Base": "unbend",
+      "Past-simple": "unbent",
+      "Past-Participle": "unbent",
+      "Translation-fr": "redresser, déplier"
+    },
+    {
+      "Base": "unbind",
+      "Past-simple": "unbound",
+      "Past-Participle": "unbound",
+      "Translation-fr": "délier, détacher"
+    },
+    {
+      "Base": "unbuild",
+      "Past-simple": "unbuilt",
+      "Past-Participle": "unbuilt",
+      "Translation-fr": "démolir, défaire"
+    },
+    {
+      "Base": "unclothe",
+      "Past-simple": ["unclothed", "unclad"],
+      "Past-Participle": ["unclothed", "unclad"],
+      "Translation-fr": "dévêtir"
+    },
+    {
+      "Base": "underbid",
+      "Past-simple": "underbid",
+      "Past-Participle": "underbid",
+      "Translation-fr": "offrir un prix inférieur"
+    },
+    {
+      "Base": "underbuy",
+      "Past-simple": "underbought",
+      "Past-Participle": "underbought",
+      "Translation-fr": "acheter en dessous de la valeur"
+    },
+    {
+      "Base": "undercut",
+      "Past-simple": "undercut",
+      "Past-Participle": "undercut",
+      "Translation-fr": "vendre à un prix inférieur, saper"
+    },
+    {
+      "Base": "underfeed",
+      "Past-simple": "underfed",
+      "Past-Participle": "underfed",
+      "Translation-fr": "sous-alimenter"
     },
     {
       "Base": "undergo",
@@ -2311,10 +2550,238 @@
       "Translation-fr": "subir"
     },
     {
+      "Base": "underlay",
+      "Past-simple": "underlaid",
+      "Past-Participle": "underlaid",
+      "Translation-fr": "poser sous, garnir"
+    },
+    {
+      "Base": "underlet",
+      "Past-simple": "underlet",
+      "Past-Participle": "underlet",
+      "Translation-fr": "sous-louer"
+    },
+    {
+      "Base": "underlie",
+      "Past-simple": "underlay",
+      "Past-Participle": "underlain",
+      "Translation-fr": "être à la base de, sous-tendre"
+    },
+    {
+      "Base": "underrun",
+      "Past-simple": "underran",
+      "Past-Participle": "underrun",
+      "Translation-fr": "dépasser (en dessous), envahir"
+    },
+    {
+      "Base": "undersell",
+      "Past-simple": "undersold",
+      "Past-Participle": "undersold",
+      "Translation-fr": "vendre moins cher"
+    },
+    {
+      "Base": "undershoot",
+      "Past-simple": "undershot",
+      "Past-Participle": "undershot",
+      "Translation-fr": "manquer (de peu), ne pas atteindre"
+    },
+    {
+      "Base": "underspend",
+      "Past-simple": "underspent",
+      "Past-Participle": "underspent",
+      "Translation-fr": "dépenser moins"
+    },
+    {
       "Base": "understand",
       "Past-simple": "understood",
       "Past-Participle": "understood",
       "Translation-fr": "comprendre"
+    },
+    {
+      "Base": "undertake",
+      "Past-simple": "undertook",
+      "Past-Participle": "undertaken",
+      "Translation-fr": "entreprendre"
+    },
+    {
+      "Base": "underthrust",
+      "Past-simple": "underthrust",
+      "Past-Participle": "underthrust",
+      "Translation-fr": "infiltrer (par en dessous)"
+    },
+    {
+      "Base": "underwrite",
+      "Past-simple": "underwrote",
+      "Past-Participle": "underwritten",
+      "Translation-fr": "souscrire (une assurance)"
+    },
+    {
+      "Base": "undo",
+      "Past-simple": "undid",
+      "Past-Participle": "undone",
+      "Translation-fr": "annuler, défaire"
+    },
+    {
+      "Base": "undraw",
+      "Past-simple": "undrew",
+      "Past-Participle": "undrawn",
+      "Translation-fr": "ouvrir (des rideaux)"
+    },
+    {
+      "Base": "unfreeze",
+      "Past-simple": "unfroze",
+      "Past-Participle": "unfrozen",
+      "Translation-fr": "dégeler"
+    },
+    {
+      "Base": "unhang",
+      "Past-simple": "unhung",
+      "Past-Participle": "unhung",
+      "Translation-fr": "décrocher"
+    },
+    {
+      "Base": "unhide",
+      "Past-simple": "unhid",
+      "Past-Participle": "unhidden",
+      "Translation-fr": "révéler, réafficher"
+    },
+    {
+      "Base": "unhold",
+      "Past-simple": "unheld",
+      "Past-Participle": "unheld",
+      "Translation-fr": "relâcher (archaïque ou rare)"
+    },
+    {
+      "Base": "unknit",
+      "Past-simple": ["unknitted", "unknit"],
+      "Past-Participle": ["unknitted", "unknit"],
+      "Translation-fr": "détricoter"
+    },
+    {
+      "Base": "unlade",
+      "Past-simple": "unladed",
+      "Past-Participle": ["unladen", "unladed"],
+      "Translation-fr": "décharger (une cargaison)"
+    },
+    {
+      "Base": "unlay",
+      "Past-simple": "unlaid",
+      "Past-Participle": "unlaid",
+      "Translation-fr": "détoronner (corde)"
+    },
+    {
+      "Base": "unlead",
+      "Past-simple": "unleaded",
+      "Past-Participle": "unleaded",
+      "Translation-fr": "délester du plomb"
+    },
+    {
+      "Base": "unlearn",
+      "Past-simple": ["unlearned", "unlearnt"],
+      "Past-Participle": ["unlearned", "unlearnt"],
+      "Translation-fr": "désapprendre"
+    },
+    {
+      "Base": "unmake",
+      "Past-simple": "unmade",
+      "Past-Participle": "unmade",
+      "Translation-fr": "défaire, démonter"
+    },
+    {
+      "Base": "unreeve",
+      "Past-simple": ["unreeved", "unrove"],
+      "Past-Participle": ["unreeved", "unrove"],
+      "Translation-fr": "dérailler (un cordage)"
+    },
+    {
+      "Base": "unsay",
+      "Past-simple": "unsaid",
+      "Past-Participle": "unsaid",
+      "Translation-fr": "revenir sur ses paroles"
+    },
+    {
+      "Base": "unsew",
+      "Past-simple": "unsewed",
+      "Past-Participle": ["unsewn", "unsewed"],
+      "Translation-fr": "découdre"
+    },
+    {
+      "Base": "unsling",
+      "Past-simple": "unslung",
+      "Past-Participle": "unslung",
+      "Translation-fr": "détacher (d’une sangle)"
+    },
+    {
+      "Base": "unspin",
+      "Past-simple": "unspun",
+      "Past-Participle": "unspun",
+      "Translation-fr": "défiler, dérouler"
+    },
+    {
+      "Base": "unstick",
+      "Past-simple": "unstuck",
+      "Past-Participle": "unstuck",
+      "Translation-fr": "décoller"
+    },
+    {
+      "Base": "unstring",
+      "Past-simple": "unstrung",
+      "Past-Participle": "unstrung",
+      "Translation-fr": "détendre, dénouer"
+    },
+    {
+      "Base": "unswear",
+      "Past-simple": "unswore",
+      "Past-Participle": "unsworn",
+      "Translation-fr": "rétracter un serment"
+    },
+    {
+      "Base": "unteach",
+      "Past-simple": "untaught",
+      "Past-Participle": "untaught",
+      "Translation-fr": "désapprendre (à quelqu’un)"
+    },
+    {
+      "Base": "unthink",
+      "Past-simple": "unthought",
+      "Past-Participle": "unthought",
+      "Translation-fr": "cesser de penser, considérer comme impensable"
+    },
+    {
+      "Base": "unweave",
+      "Past-simple": ["unwove", "unweaved"],
+      "Past-Participle": ["unwove", "unweaved"],
+      "Translation-fr": "détricoter, dénouer"
+    },
+    {
+      "Base": "unwind",
+      "Past-simple": "unwound",
+      "Past-Participle": "unwound",
+      "Translation-fr": "détendre, dérouler"
+    },
+    {
+      "Base": "unwrite",
+      "Past-simple": "unwrote",
+      "Past-Participle": "unwritten",
+      "Translation-fr": "effacer, désécrire"
+    },
+    {
+      "Base": "uphold",
+      "Past-simple": "upheld",
+      "Past-Participle": "upheld",
+      "Translation-fr": "maintenir, faire respecter"
+    },
+    {
+      "Base": "upset",
+      "Past-simple": "upset",
+      "Past-Participle": "upset",
+      "Translation-fr": "bouleverser, renverser"
+    },
+    {
+      "Base": "vex",
+      "Past-simple": ["vexed", "vext"],
+      "Past-Participle": ["vexed", "vext"],
+      "Translation-fr": "contrarier, importuner"
     },
     {
       "Base": "wake",
@@ -2323,10 +2790,28 @@
       "Translation-fr": "se réveiller"
     },
     {
+      "Base": "waylay",
+      "Past-simple": "waylaid",
+      "Past-Participle": "waylaid",
+      "Translation-fr": "attaquer par surprise, tendre une embuscade"
+    },
+    {
       "Base": "wear",
       "Past-simple": "wore",
       "Past-Participle": "worn",
       "Translation-fr": "porter (vêtement)"
+    },
+    {
+      "Base": "weave",
+      "Past-simple": ["wove", "weaved"],
+      "Past-Participle": ["wove", "weaved"],
+      "Translation-fr": "tisser, tresser"
+    },
+    {
+      "Base": "wed",
+      "Past-simple": ["wed", "wedded"],
+      "Past-Participle": ["wed", "wedded"],
+      "Translation-fr": "épouser, se marier"
     },
     {
       "Base": "weep",
@@ -2335,10 +2820,16 @@
       "Translation-fr": "pleurer"
     },
     {
-      "Base": "will",
-      "Past-simple": "would",
-      "Past-Participle": "",
-      "Translation-fr": "vouloir (au futur), volonté"
+      "Base": "wet",
+      "Past-simple": ["wet", "wetted"],
+      "Past-Participle": ["wet", "wetted"],
+      "Translation-fr": "mouiller"
+    },
+    {
+      "Base": "whet",
+      "Past-simple": "whetted",
+      "Past-Participle": "whetted",
+      "Translation-fr": "aiguiser, stimuler"
     },
     {
       "Base": "win",
@@ -2353,10 +2844,22 @@
       "Translation-fr": "enrouler"
     },
     {
+      "Base": "withdraw",
+      "Past-simple": "withdrew",
+      "Past-Participle": "withdrawn",
+      "Translation-fr": "retirer, se retirer"
+    },
+    {
       "Base": "withhold",
       "Past-simple": "withheld",
       "Past-Participle": "withheld",
       "Translation-fr": "retenir (informations, argent...)"
+    },
+    {
+      "Base": "withstand",
+      "Past-simple": "withstood",
+      "Past-Participle": "withstood",
+      "Translation-fr": "résister à, supporter"
     },
     {
       "Base": "wreak",
