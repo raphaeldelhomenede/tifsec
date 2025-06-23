@@ -56,58 +56,58 @@
   <div class="sidebar">
     <h2>Cours</h2>
     <ul>
-      <li><a href="?Cours=AdresseDNS">Adresse et DNS.pdf</a></li>
-      <li><a href="?Cours=AdresseExo">Adresse Exo.pdf</a></li>
-      <li><a href="?Cours=DNSExo">DNS Exo.pdf</a></li>
-      <li><a href="?Cours=RepresentationRéseaux">Representation réseaux.pdf</a></li>
-      <li><a href="?Cours=RésuméCoursAdressesPartie1">Résumé cours Adresses partie 1.pdf</a></li>
-      <li><a href="?Cours=RésuméCoursAdressesPartie2">Résumé cours Adresses partie 2.pdf</a></li>
-      <li><a href="?Cours=RésuméCoursDNS">Résumé cours DNS.pdf</a></li>
+      <li><a data-file="Cours/Adresse et DNS.pdf">Adresse et DNS.pdf</a></li>
+      <li><a data-file="Cours/Adresse Exo.pdf">Adresse Exo.pdf</a></li>
+      <li><a data-file="Cours/DNS Exo.pdf">DNS Exo.pdf</a></li>
+      <li><a data-file="Cours/Representation réseaux.pdf">Representation réseaux.pdf</a></li>
+      <li><a data-file="Cours/Résumé cours Adresses partie 1.pdf">Résumé cours Adresses partie 1.pdf</a></li>
+      <li><a data-file="Cours/Résumé cours Adresses partie 2.pdf">Résumé cours Adresses partie 2.pdf</a></li>
+      <li><a data-file="Cours/Résumé cours DNS.pdf">Résumé cours DNS.pdf</a></li>
     </ul>
     <h2>Exos</h2>
     <ul>
-      <li><a href="?Exos=0">0 - Démarche à suivre pour les exercices.pdf</a></li>
-      <li><a href="?Exos=1">1 - Adresse Exo.pdf</a></li>
-      <li><a href="?Exos=2">2 - DNS Exo.pdf</a></li>
-      <li><a href="?Exos=4">4 - Exo 1.pdf</a></li>
-      <li><a href="?Exos=5">5 - Exo 2.pdf</a></li>
-      <li><a href="?Exos=6">6 - Exo 3.pdf</a></li>
+      <li><a data-file="Exos/0 - Démarche à suivre pour les exercices.pdf">0 - Démarche à suivre.pdf</a></li>
+      <li><a data-file="Exos/1 - Adresse Exo.pdf">1 - Adresse Exo.pdf</a></li>
+      <li><a data-file="Exos/2 - DNS Exo.pdf">2 - DNS Exo.pdf</a></li>
+      <li><a data-file="Exos/4 - Exo 1.pdf">4 - Exo 1.pdf</a></li>
+      <li><a data-file="Exos/5 - Exo 2.pdf">5 - Exo 2.pdf</a></li>
+      <li><a data-file="Exos/6 - Exo 3.pdf">6 - Exo 3.pdf</a></li>
     </ul>
   </div>
+
   <div class="content">
     <div class="iframe-container">
-      <iframe id="pdfViewer" src=""></iframe>
+      <iframe id="pdfViewer"></iframe>
     </div>
   </div>
 
   <script>
-    const fileMap = {
-      'Cours=AdresseDNS': 'Cours/Adresse et DNS.pdf',
-      'Cours=AdresseExo': 'Cours/Adresse Exo.pdf',
-      'Cours=DNSExo': 'Cours/DNS Exo.pdf',
-      'Cours=RepresentationRéseaux': 'Cours/Representation réseaux.pdf',
-      'Cours=RésuméCoursAdressesPartie1': 'Cours/Résumé cours Adresses partie 1.pdf',
-      'Cours=RésuméCoursAdressesPartie2': 'Cours/Résumé cours Adresses partie 2.pdf',
-      'Cours=RésuméCoursDNS': 'Cours/Résumé cours DNS.pdf',
-      'Exos=0': 'Exos/0 - Démarche à suivre pour les exercices.pdf',
-      'Exos=1': 'Exos/1 - Adresse Exo.pdf',
-      'Exos=2': 'Exos/2 - DNS Exo.pdf',
-      'Exos=4': 'Exos/4 - Exo 1.pdf',
-      'Exos=5': 'Exos/5 - Exo 2.pdf',
-      'Exos=6': 'Exos/6 - Exo 3.pdf',
-    };
+    const links = document.querySelectorAll('a[data-file]');
+    const viewer = document.getElementById('pdfViewer');
 
-    function getPDFfromURL() {
-      const params = new URLSearchParams(window.location.search);
-      for (const [key, value] of params) {
-        const fullKey = `${key}=${value}`;
-        if (fileMap[fullKey]) {
-          document.getElementById('pdfViewer').src = fileMap[fullKey];
+    links.forEach(link => {
+      link.addEventListener('click', async function (e) {
+        e.preventDefault();
+        const pdfPath = this.dataset.file;
+
+        try {
+          const response = await fetch(pdfPath);
+          if (!response.ok) throw new Error('Échec du chargement : ' + response.status);
+
+          const blob = await response.blob();
+
+          const reader = new FileReader();
+          reader.onloadend = function () {
+            const base64data = reader.result.split(',')[1]; // retire "data:application/pdf;base64,"
+            viewer.src = `data:application/pdf;base64,${base64data}`;
+          };
+          reader.readAsDataURL(blob);
+
+        } catch (error) {
+          alert("Erreur : impossible de charger le PDF.\n" + error);
         }
-      }
-    }
-
-    window.onload = getPDFfromURL;
+      });
+    });
   </script>
 </body>
 </html>
