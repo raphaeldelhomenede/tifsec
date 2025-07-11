@@ -2568,6 +2568,12 @@
       "Translation-fr": "être à la base de, sous-tendre"
     },
     {
+      "Base": "underpay",
+      "Past-simple": "underpaid",
+      "Past-Participle": "underpaid",
+      "Translation-fr": "sous-payer"
+    },
+    {
       "Base": "underrun",
       "Past-simple": "underran",
       "Past-Participle": "underrun",
