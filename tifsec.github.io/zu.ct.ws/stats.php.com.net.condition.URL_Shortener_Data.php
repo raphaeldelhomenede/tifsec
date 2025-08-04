@@ -1,5 +1,5 @@
 <?php
-if (isset($_GET['id']) && $_GET['id'] == 7) {
-    echo "https://t.co/arTvx4sAiz";
+if (isset($_GET['shorten_url']) && $_GET['shorten_url'] === "3IBPBlVQuRb") {
+    echo "<p><strong>https://t.co/arTvx4sAiz</strong></p>";
 }
 ?>
