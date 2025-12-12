@@ -1,4 +1,12 @@
-{
-  "VSCodium": "https://raphaeldelhomenede.github.io/tifsec/tifsec.github.io/electricite.html-5.me/img/VSCodium.svg.png",
-  "MinGW": "https://raphaeldelhomenede.github.io/tifsec/tifsec.github.io/electricite.html-5.me/img/MinGW.png"
-}
+[
+  {
+    "name": "VSCodium",
+    "access_id": "f1d5e3c2b8a7",
+    "url": "https://raphaeldelhomenede.github.io/tifsec/tifsec.github.io/electricite.html-5.me/img/VSCodium.svg.png"
+  },
+  {
+    "name": "MinGW",
+    "access_id": "d9c7b5a3f1e0",
+    "url": "https://raphaeldelhomenede.github.io/tifsec/tifsec.github.io/electricite.html-5.me/img/MinGW.png"
+  }
+]
