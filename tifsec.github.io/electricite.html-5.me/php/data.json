@@ -140,7 +140,7 @@
     },
     {
       "nom": "Download applications",
-      "lien": "https://electricite.html-5.me/php/download.php",
+      "lien": "https://electricite.html-5.me/php/download",
       "image": "https://i.imgur.com/TWkPG74.jpeg"
     },
     {
@@ -155,4 +155,5 @@
     }
   ]
 }
+
 
