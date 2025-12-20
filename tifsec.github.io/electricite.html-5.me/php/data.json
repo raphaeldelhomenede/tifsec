@@ -10,40 +10,40 @@
     {
       "titre": "Ma chaine Youtube",
       "lien": "https://youtube.com/@raphael_del",
-      "img": "https://yt3.googleusercontent.com/8YiCLI2fwa4dEKQDEQNy5irmxix_ZPA31R63nQoMPcyA9mwEG1BhIp8Bavop1x_Y3Esvr2CQhA=s1920-c-k-c0x00ffffff-no-rj"
+      "img": "https://electricite.html-5.me/php/avatar-yt.php?channel_url=https://youtube.com/@raphael_del&image"
     },
     {
       "titre": "Raphael Four 4",
       "lien": "https://www.youtube.com/@raphaelfour4",
-      "img": "https://yt3.googleusercontent.com/ytc/AIdro_lmOULlKsYDqDTEMAoNGve_R1M5O8-zkaM-_rDBnqyg5Rg=s1920-c-k-c0x00ffffff-no-rj"
+      "img": "https://electricite.html-5.me/php/avatar-yt.php?channel_url=https://www.youtube.com/@raphaelfour4&image"
     },
     {
       "titre": "Friends Ed Sheeran",
       "lien": "https://www.youtube.com/@friendsedsheeran512",
-      "img": "https://yt3.googleusercontent.com/ytc/AIdro_mEz1JmWGNgKMWcwJ2RnWdV4oGj-vnYAlUhY2xqYqTTMQ=s1920-c-k-c0x00ffffff-no-rj"
+      "img": "https://electricite.html-5.me/php/avatar-yt.php?channel_url=https://www.youtube.com/@friendsedsheeran512&image"
     },
     {
       "titre": "The Seven Deadly Sins",
       "lien": "https://www.youtube.com/@7ds-TheSevenDeadlySins",
-      "img": "https://yt3.googleusercontent.com/HsJaGiLXa1LZ4-EQs1-OqzRAp0VWa2lf8bJUevqY7EKG5uXZ2zBt4mgV0KNQIzpFbUg-1_22sg=s1920-c-k-c0x00ffffff-no-rj"
+      "img": "https://electricite.html-5.me/php/avatar-yt.php?channel_url=https://www.youtube.com/@7ds-TheSevenDeadlySins&image"
     }
   ],
   "discord": {
     "titre": "Mon serveur Discord",
     "lien": "https://discord.gg/4xeKf85gp5",
-    "img": "https://electricite.html-5.me/img/Discord.png"
+    "img": "https://electricite.html-5.me/img/?Discord"
   },
   "title-sites": "Mes sites webs",
   "sites": [
     {
       "nom": "The Seven Deadly Sins",
       "lien": "https://sites.google.com/view/thesevendeadlysins-7ds#h.78n0wlf6fo60",
-      "image": "https://electricite.html-5.me/7ds.jpg"
+      "image": "https://electricite.html-5.me/php/avatar-yt.php?channel_url=https://www.youtube.com/@7ds-TheSevenDeadlySins&image"
     },
     {
       "nom": "Les Grands Nombres",
       "lien": "https://sites.google.com/view/les-grands-nombres",
-      "image": "https://i.imgur.com/rapx5ES.png"
+      "image": "https://electricite.html-5.me/img/?7"
     }
   ],
   "titre-sites-coded": "Mes sites que j'ai codé",
@@ -51,102 +51,102 @@
     {
       "nom": "Les Grands Nombres",
       "lien": "https://electricite.html-5.me/les-grands-nombres.html",
-      "image": "https://i.imgur.com/rapx5ES.png"
+      "image": "https://electricite.html-5.me/img/?7"
     },
     {
       "nom": "Rotations",
       "lien": "https://electricite.html-5.me/rotate/",
-      "image": "https://i.imgur.com/dgfeqEN.png"
+      "image": "https://electricite.html-5.me/img/?chrome"
     },
     {
       "nom": "NSI",
       "lien": "https://raphaeldelhomenede.github.io/tifsec/AnciensCours",
-      "image": "https://electricite.html-5.me/img/732212.ico"
+      "image": "https://electricite.html-5.me/img/?732212"
     },
     {
       "nom": "Audio",
       "lien": "https://electricite.html-5.me/audio/index",
-      "image": "https://electricite.html-5.me/img/VLC_icon.png"
+      "image": "https://electricite.html-5.me/img/?VLC_icon"
     },
     {
       "nom": "Extracteur de miniatures youtube",
       "lien": "https://electricite.html-5.me/extracteurYT/index",
-      "image": "https://electricite.html-5.me/img/Youtube_logo.png"
+      "image": "https://electricite.html-5.me/img/?Youtube_logo"
     },
     {
       "nom": "Site de vente 1",
       "lien": "https://site2vente1.onrender.com",
-      "image": "https://electricite.html-5.me/img/images.png"
+      "image": "https://electricite.html-5.me/img/?images"
     },
     {
       "nom": "Site de vente 2",
       "lien": "https://site2vente2.onrender.com",
-      "image": "https://electricite.html-5.me/img/images.png"
+      "image": "https://electricite.html-5.me/img/?images"
     },
     {
       "nom": "Site de vente 3",
       "lien": "https://site2vente3.onrender.com",
-      "image": "https://electricite.html-5.me/img/images.png"
+      "image": "https://electricite.html-5.me/img/?images"
     },
     {
       "nom": "Barrage Hydroelectrique sur render",
       "lien": "https://barrages-hydroelectrique-html-5.onrender.com",
-      "image": "https://electricite.html-5.me/img/barrageshydroelectrique.jpg"
+      "image": "https://electricite.html-5.me/img/?barrageshydroelectrique"
     },
     {
       "nom": "Pizza.moe",
       "lien": "https://pizza-moe.onrender.com",
-      "image": "https://electricite.html-5.me/img/pizza.png"
+      "image": "https://electricite.html-5.me/img/?pizza"
     },
     {
       "nom": "voiture",
       "lien": "https://voiture-de-preference-vroum-vroum.vercel.app",
-      "image": "https://i.imgur.com/dgfeqEN.png"
+      "image": "https://electricite.html-5.me/img/?chrome"
     },
     {
       "nom": "Un raccourcisseur de lien",
       "lien": "http://zu.ct.ws/?lang=fr",
-      "image": "https://i.imgur.com/eB8rRLf.png"
+      "image": "https://electricite.html-5.me/img/?URL_Shortify"
     },
     {
       "nom": "Votre adresse IP est là en cliquant sur l'image ci-dessous",
       "lien": "https://electricite.html-5.me/others/ip-adress.html",
-      "image": "https://electricite.html-5.me/img/6202873.png"
+      "image": "https://electricite.html-5.me/img/?IP_adress"
     },
     {
       "nom": "Diverses choses interressantes",
       "lien": "https://electricite.html-5.me/others/toto/",
-      "image": "https://i.imgur.com/6tzkj4U.png"
+      "image": "https://electricite.html-5.me/img/?LM"
     },
     {
       "nom": "Voici mes autres sites en plus",
       "lien": "https://electricite.totalh.net",
-      "image": "https://electricite.html-5.me/img/clé_de_sécurité_secure-removebg-preview.png"
+      "image": "https://electricite.html-5.me/img/?clé_de_sécurité_secure-removebg-preview"
     },
     {
       "nom": "NSI Tle",
       "lien": "https://tifsec-nsi.rf.gd/TNSI",
-      "image": "https://electricite.html-5.me/img/732212.ico"
+      "image": "https://electricite.html-5.me/img/?732212"
     },
     {
       "nom": "NSI Nouvelles Versions",
       "lien": "https://raphaeldelhomenede.github.io/tifsec/AnciensCours/nouvelles-versions",
-      "image": "https://electricite.html-5.me/img/732212.ico"
+      "image": "https://electricite.html-5.me/img/?732212"
     },
     {
       "nom": "NSI Nouvelles Versions scrappé",
       "lien": "https://raphaeldelhomenede.github.io/tifsec/AnciensCours/nouvelles-versions/index-en-scrapp%C3%A9.html",
-      "image": "https://mercier-st-paul.fr/wp-content/uploads/sites/55/2025/02/7.png"
+      "image": "https://electricite.html-5.me/img/?NSI"
     },
     {
       "nom": "Download applications",
       "lien": "https://electricite.html-5.me/php/download",
-      "image": "https://i.imgur.com/TWkPG74.jpeg"
+      "image": "https://electricite.html-5.me/img/?TWkPG74"
     },
     {
       "nom": "Irregular verbs",
       "lien": "https://electricite.html-5.me/jeu/irregular-verbs/",
-      "image": "https://i.imgur.com/p1YTM0R.png"
+      "image": "https://electricite.html-5.me/img/?p1YTM0R"
     },
     {
       "nom": "Banger musicaux",
@@ -155,5 +155,3 @@
     }
   ]
 }
-
-
