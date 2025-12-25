@@ -1,0 +1,97 @@
+.menu {
+        border: 2px red solid;
+        background-color: blueviolet;
+        display: flex;
+    }
+    .logo {
+        margin-left: 10px;
+    }
+    .logo1 {
+        margin-left: 10px;
+    }
+    @keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logo1:hover {
+    animation: rotating 0.5s linear;
+}
+h1 {
+    font-size: 20pt;
+    background-color: yellow;
+    border: 2px red solid;
+    width: 500px;
+    color: red;
+    margin-left: 600px;
+}
+h2 {
+    color: black;
+}
+body {
+    background-color: blueviolet;
+}
+.deuxpardeux {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.element {
+    border: 2px solid black;
+    border-radius: 20px;
+    color: yellow;
+    background-color: red;
+    height: 300px;
+    width: 200px;
+}
+.element:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+@media (max-width: 1250px) {
+    h1 {
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1000px) {
+    h1 {
+        margin-left: 125px;
+    }
+    .deuxpardeux {
+        margin-left: 15px;
+        display: unset;
+    }
+    .element {
+        margin-top: 10px;
+        margin-left: 350px;
+    }
+}
+@media (max-width: 750px) {
+    .element {
+        margin-top: 10px;
+        margin-left: 222px;
+    }
+    h1 {
+        margin-left: 70px;
+        width: 350px;
+    }
+}
+@media (max-width: 625px) {
+    h1 {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .element {
+        margin-top: 10px;
+        margin-left: 130px;
+        height: 300px;
+    }
+    h1 {
+        margin-left: 0px;
+        width: 350px;
+    }
+}
