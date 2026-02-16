@@ -125,17 +125,17 @@
     },
     {
       "nom": "NSI Tle",
-      "lien": "https://tifsec-nsi.rf.gd/TNSI",
+      "lien": "https://tifsec-nsi.up.railway.app/TNSI/ancienne-version",
       "image": "https://electricite.html-5.me/img/?732212"
     },
     {
       "nom": "NSI Nouvelles Versions",
-      "lien": "https://tifsec-nsi.rf.gd/TNSI/nouvelles-versions/",
+      "lien": "https://tifsec-nsi.up.railway.app/TNSI/ancienne-version/nouvelles-versions/",
       "image": "https://electricite.html-5.me/img/?732212"
     },
     {
       "nom": "NSI Nouvelles Versions scrappé",
-      "lien": "https://tifsec-nsi.xo.je/nouvelles-versions-index-en-scrappé/",
+      "lien": "https://tifsec-nsi.up.railway.app/TNSI/version-scrappe/",
       "image": "https://electricite.html-5.me/img/?NSI"
     },
     {
@@ -155,5 +155,6 @@
     }
   ]
 }
+
 
 
