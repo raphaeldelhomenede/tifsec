@@ -125,17 +125,17 @@
     },
     {
       "nom": "NSI Tle",
-      "lien": "https://tifsec-nsi.up.railway.app/TNSI/ancienne-version",
+      "lien": "https://raphaeldelhomenede.github.io/tifsec/AnciensCours/",
       "image": "https://electricite.html-5.me/img/?732212"
     },
     {
       "nom": "NSI Nouvelles Versions",
-      "lien": "https://tifsec-nsi.up.railway.app/TNSI/ancienne-version/nouvelles-versions/",
+      "lien": "https://tifsec-nsi.rf.gd/TNSI/nouvelles-versions/",
       "image": "https://electricite.html-5.me/img/?732212"
     },
     {
       "nom": "NSI Nouvelles Versions scrappé",
-      "lien": "https://tifsec-nsi.up.railway.app/TNSI/version-scrappe/",
+      "lien": "https://tifsec-nsi.xo.je/nouvelles-versions-index-en-scrappé/",
       "image": "https://electricite.html-5.me/img/?NSI"
     },
     {
@@ -155,6 +155,7 @@
     }
   ]
 }
+
 
 
 
